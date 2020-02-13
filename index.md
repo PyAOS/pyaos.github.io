@@ -18,7 +18,7 @@ buttons:
 # Author box
 author:
     title: About Author
-    title_url: 'http://damienirving.github.io/CV/'
+    title_url: 'http://damienirving.github.io/'
     external_url: true
     description: Damien Irving
 
