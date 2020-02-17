@@ -7,10 +7,10 @@ doks:
             text: Python for Atmosphere and Ocean Science
             image:
         nav:
-            - item_name: Getting Started
-              item_url: '/start'
             - item_name: PyAOS Stack
               item_url: '/stack'
+            - item_name: Installation Guide
+              item_url: '/install'
             - item_name: Package Index
               item_url: '/packages'
             - item_name: Training

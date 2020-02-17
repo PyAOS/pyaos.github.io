@@ -24,14 +24,14 @@ author:
 
 # Grid navigation
 grid_navigation:
-    - title: Getting Started
-      excerpt: A guide for getting started with Python in the atmosphere and ocean sciences.
-      cta: Read more
-      url: '/start'
     - title: The PyAOS Stack
       excerpt: An overview of the Python libraries used by the AOS community.
       cta: Read more
       url: '/stack'
+    - title: Installation Guide
+      excerpt: How to install the PyAOS stack.
+      cta: Read more
+      url: '/install'
     - title: Package Index
       excerpt: A comprehensive listing of the Python libraries used by the AOS community.
       cta: Read more

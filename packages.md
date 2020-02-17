@@ -8,13 +8,6 @@ comments: false
 title: Package Index
 description: A comprehensive listing of the Python libraries used by the AOS community.
 
-# Author box
-author:
-    title: About Author
-    title_url: '#'
-    external_url: true
-    description: Author description
-
 # Micro navigation
 micro_nav: true
 

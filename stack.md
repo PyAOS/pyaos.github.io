@@ -13,12 +13,9 @@ micro_nav: true
 
 # Page navigation
 page_nav:
-    prev:
-        content: Previous page
-        url: '/start'
     next:
         content: Next page
-        url: '/packages'
+        url: '/install'
 ---
 
 A group of programs that works in tandem to produce a result or achieve a common goal
