@@ -5,7 +5,7 @@ keywords:
 
 # Hero section
 title: Python for Atmosphere and Ocean Science
-description: Information and resources for the PyAOS community
+description: Information and resources for the PyAOS community.
 buttons:
     - content: Mailing List
       url: 'http://lists.johnny-lin.com/listinfo.cgi/pyaos-johnny-lin.com'
@@ -25,19 +25,19 @@ author:
 # Grid navigation
 grid_navigation:
     - title: Getting Started
-      excerpt: A guide for getting started with Python in the atmosphere and ocean sciences
+      excerpt: A guide for getting started with Python in the atmosphere and ocean sciences.
       cta: Read more
       url: '/start'
     - title: The PyAOS Stack
-      excerpt: An overview of the Python libraries used by the AOS community
+      excerpt: An overview of the Python libraries used by the AOS community.
       cta: Read more
       url: '/stack'
     - title: Package Index
-      excerpt: A comprehensive listing of the Python libraries used by the AOS community
+      excerpt: A comprehensive listing of the Python libraries used by the AOS community.
       cta: Read more
       url: '/packages'
     - title: Training
-      excerpt: Resources for PyAOS teachers and learners
+      excerpt: Resources for PyAOS teachers and learners.
       cta: Read more
       url: '/training'
 ---

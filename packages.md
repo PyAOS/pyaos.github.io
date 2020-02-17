@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Package Index
-description: A comprehensive listing of the Python libraries used by the AOS community
+description: A comprehensive listing of the Python libraries used by the AOS community.
 
 # Author box
 author:

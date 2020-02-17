@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Training
-description: Resources for PyAOS teachers and learners
+description: Resources for PyAOS teachers and learners.
 
 # Author box
 author:

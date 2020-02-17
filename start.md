@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Getting Started
-description: A guide for getting started with Python in the atmosphere and ocean sciences
+description: A guide for getting started with Python in the atmosphere and ocean sciences.
 
 # Author box
 author:

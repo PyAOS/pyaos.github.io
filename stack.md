@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: The PyAOS Stack
-description: An overview of the Python libraries used by the AOS community
+description: An overview of the Python libraries used by the AOS community.
 
 # Author box
 author:
