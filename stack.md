@@ -8,13 +8,6 @@ comments: false
 title: The PyAOS Stack
 description: An overview of the Python libraries used by the AOS community.
 
-# Author box
-author:
-    title: About Author
-    title_url: '#'
-    external_url: true
-    description: Author description
-
 # Micro navigation
 micro_nav: true
 
@@ -32,7 +25,7 @@ A group of programs that works in tandem to produce a result or achieve a common
 is often referred to as a software stack.
 The PyAOS stack looks something like this:
 
-TODO: Add [figure](https://github.com/carpentrieslab/python-aos-lesson/blob/gh-pages/fig/01-pyaos-stack.png)
+![figure](../images/pyaos-stack.png "blah")
 
 ## Core libraries
 
@@ -49,7 +42,7 @@ but for more complex analysis
 (e.g. interpolation, integration, linear algebra)
 the [SciPy](https://www.scipy.org/scipylib/index.html) library is the default.
 If you’re dealing with a particularly large dataset,
-you may get memory errors (and/or slow performance)
+you may get memory errors and/or slow performance
 when trying to read and process your data.
 [Dask](https://dask.org/) works with the existing Python ecosystem (i.e. NumPy, SciPy etc)
 to scale your analysis to multi-core machines and/or distributed clusters
@@ -108,7 +101,7 @@ makes the xarray data array far easier to deal with than the NumPy array.
 
 While the xarray library is a good option for those working in the atmosphere and ocean sciences
 (especially those dealing with large multi-dimensional arrays from model simulations),
-the [SciTools](https://scitools.org.uk/) project (led by the MetOffice)
+the [SciTools](https://scitools.org.uk/) project led by the MetOffice
 has taken a different approach to building on top of the core stack.
 Rather than striving to make their software generic
 (xarray is designed to handle any multi-dimensional data),
@@ -136,7 +129,8 @@ The VCDAT application also now runs as a JupyterLab extension, which is an excit
     some people like the slightly more AOS-centric experience offered by Iris,
     while others don’t like the restrictions that places on their work
     and prefer the generic xarray experience
-    (e.g. to use Iris your netCDF data files have to be CF compliant or close to it).
+    (e.g. to use Iris your netCDF data files have to be
+    <a href="http://cfconventions.org/">CF compliant</a> or close to it).
     Either way, they are both a vast improvement on the netCDF/NumPy/matplotlib experience.
     </p>
 </div>
@@ -207,23 +201,19 @@ is true for [MetPy](https://unidata.github.io/MetPy/latest/index.html).
 Check out the [Package Index](https://pyaos.github.io/packages/) for a listing of all the
 sub-discipline-specific libraries in your particular area of AOS research.
 
-## Navigating the stack
+## Summary
 
-All of the additional libraries discussed on this page
-essentially exist to hide the complexity of the core libraries
-(in software engineering this is known as abstraction).
-Iris, for instance, was built to hide some of the complexity of netCDF4, NumPy and matplotlib.
-GeoViews was built to hide some of the complexity of xarray/Iris, cartopy and Bokeh.
-So if you want to start exploring your data, start at the top right of the stack
-and move your way down and left as required.
-If GeoViews doesn’t have quite the right functions for a particular plot that you want to create,
-drop down a level and use some Iris and cartopy functions.
-If Iris doesn’t have any functions for a statistical procedure that you want to apply,
-go back down another level and use SciPy.
-By starting at the top right and working your way back,
-you’ll ensure that you never re-invent the wheel.
-Nothing would be more heartbreaking than spending hours writing your own function (using netCDF4)
+Most Python users in the atmosphere and ocean sciences base their data analysis
+around the xarray or Iris libraries.
+The appeal of these high-level libraries is that they are built on top of
+(and thus hide the complexity of) core data science libraries like NumPy and matplotlib.
+You will occasionally find yourself needing to use a core library directly
+(e.g. you might create a plot with xarray and then call a specific matplotlib
+function to customise a label on that plot),
+but to avoid re-inventing the wheel your first impulse should always be
+to check whether a high-level library has the functionality you need.  
+Nothing would be more heartbreaking than spending hours writing your own function using netCDF4
 for extracting the metadata contained within a netCDF file, for instance,
 only to find that Iris automatically keeps this information upon reading a file.
-In this way, a solid working knowledge of the scientific Python stack
+In this way, a solid working knowledge of the PyAOS stack
 can save you a lot of time and effort.
