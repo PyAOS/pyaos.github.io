@@ -12,7 +12,7 @@ Favicon: [World map](https://favicon.io/emoji-favicons/world-map/)
 #### Changes to existing pages
 The content for each page of the website exists as a markdown file in the root directory.
 Contributors are encouraged to submit pull requests with suggested changes to those markdown files.
-Those less familiar with GitHub can instead create a new [issue](https://github.com/PyAOS/pyaos.github.io/issues).
+Those less familiar with GitHub can create a new [issue](https://github.com/PyAOS/pyaos.github.io/issues) instead.
 
 > **Previewing your changes**  
 > If you'd like to preview how your changes will look on the web before submitting a pull request,
