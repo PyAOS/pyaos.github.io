@@ -22,7 +22,7 @@ A group of programs that works in tandem to produce a result or achieve a common
 is often referred to as a software stack.
 The PyAOS stack looks something like this:
 
-![figure](../images/pyaos-stack.png "blah")
+![PyAOS Stack](../images/pyaos-stack.svg "PyAOS Stack")
 
 ## Core libraries
 
