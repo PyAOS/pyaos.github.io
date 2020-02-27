@@ -70,7 +70,7 @@ Anaconda comes with over 250 of the most widely used data science libraries (and
 In addition, thousands more of the most popular data science libraries can be added/installed
 using their [conda](https://docs.conda.io/en/latest/) package manager.
 
-### Anaconda Cloud
+#### Anaconda Cloud
 
 A potential problem for the PyAOS community is that many of the packages we use are
 highly discipline-specific,
