@@ -15,7 +15,55 @@ micro_nav: true
 page_nav:
     prev:
         content: Previous page
-        url: '/training'
+        url: '/packages'
 ---
 
-Listing of resources...
+## Starting out
+
+#### Workshops and short courses
+
+If you're new to using Python for atmosphere and ocean science,
+[The Carpentries](https://carpentries.org/) and/or
+[Unidata](https://unidata.github.io/python-training/) have got you covered. 
+
+For those who have never used Python before,
+Software Carpentry offer a single-day workshop on 
+[Plotting and Programming in Python](http://swcarpentry.github.io/python-novice-gapminder/),
+while Unidata's [Introduction to Python for Atmospheric Science and Meteorology](https://unidata.github.io/python-training/python/intro-to-python/)
+has links to a bunch of useful lessons and resources.
+
+For those who understand the basics of Python but are new to using it in the PyAOS context,
+Data Carpentry offer a single-day workshop on 
+[Python for Atmosphere and Ocean Science](https://carpentrieslab.github.io/python-aos-lesson/),
+while Unidata also run a [Python Workshop](https://unidata.github.io/python-training/workshop/workshop-intro/).
+
+If there's not a Carpentries or Unidata workshop coming up soon in your area,
+you can [request a Carpentries workshop](https://carpentries.org/workshops/).
+Alternatively, you can work though the lesson materials online
+for any of the workshops listed above.
+
+
+#### Books and university courses
+
+If you're looking for something longer than a single-day workshop,
+check out the following:
+* [Earth and Environmental Data Science](https://earth-env-data-science.github.io)
+is an open source book from Ryan Abernathy and Kerry Key that grew out of a
+semester-long class at Columbia University
+* [Python for the Geosciences](https://github.com/kthyng/python4geosciences)
+is a semester-long class offered by the Oceanography Department at Texas A&M University
+
+
+## Additional resources
+
+Once you're comfortable with the basics,
+the following training resources might be of use:
+* [Pangeo use case gallery](https://pangeo.io/use_cases/index.html) for dealing with big data
+* [EarthML](https://earthml.holoviz.org/index.html) for machine learning and visualization in Python for Earth science
+
+
+
+
+
+
+
