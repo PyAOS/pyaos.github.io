@@ -21,6 +21,12 @@ page_nav:
         url: '/packages'
 ---
 
+<div class="callout callout--success">
+    <p><strong>Most people in the PyAOS community install and manage
+    their Python environments using Anaconda/conda.</strong>
+    </p>
+</div>
+
 ## The Python Package Installer (pip)
 
 As you might expect,
@@ -69,6 +75,9 @@ According to the [latest documentation](https://docs.anaconda.com/anaconda/#anac
 Anaconda comes with over 250 of the most widely used data science libraries (and their dependencies) pre-installed.
 In addition, thousands more of the most popular data science libraries can be added/installed
 using their [conda](https://docs.conda.io/en/latest/) package manager.
+Data Carpentry have a great
+[PyAOS conda tutorial](https://carpentrieslab.github.io/python-aos-lesson/01-conda/index.html)
+to get you started.
 
 #### Anaconda Cloud
 
@@ -94,9 +103,7 @@ using a conda installation package that they've uploaded to Anaconda Cloud.
 
 ## Summary
 
-Most people in the PyAOS community install and manage their Python environments using Anaconda/conda.
-Data Carpentry have a great
-[PyAOS conda tutorial](https://carpentrieslab.github.io/python-aos-lesson/01-conda/index.html)
-to get you started. 
+
+ 
 
  

@@ -18,15 +18,20 @@ page_nav:
         url: '/install'
 ---
 
-A group of programs that works in tandem to produce a result or achieve a common goal
-is often referred to as a software stack.
-The PyAOS stack looks something like this:
+<div class="callout callout--success">
+    <p><strong>A group of programs that works in tandem to produce a result
+    or achieve a common goal is often referred to as a software stack. 
+    This page gives an overview of the PyAOS stack.</strong>
+    </p>
+</div>
+
 
 ![PyAOS Stack](../images/pyaos-stack.svg "PyAOS Stack")
 
 ## Core libraries
 
-The dashed box in the diagram represents the core of the stack, so let’s start our tour there.
+The dashed box in the diagram above represents the core of the PyAOS stack,
+so let’s start our tour there.
 The default library for dealing with numerical arrays in Python is [NumPy](http://www.numpy.org/).
 It has a bunch of built in functions for reading and writing common data formats like .csv,
 but if your data is stored in netCDF format then the default library for getting data

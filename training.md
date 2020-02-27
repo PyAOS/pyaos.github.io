@@ -18,6 +18,15 @@ page_nav:
         url: '/packages'
 ---
 
+<div class="callout callout--success">
+    <p><strong>If you'd like to see a training resource added to this list,
+    check whether it's within
+    <a href="https://github.com/PyAOS/pyaos.github.io/blob/master/README.md#scope">scope</a>
+    and then submit an issue or pull request at the
+    <a href="https://github.com/PyAOS/pyaos.github.io/">GitHub repository</a>.</strong>
+    </p>
+</div>
+
 ## Starting out
 
 #### Workshops and short courses
