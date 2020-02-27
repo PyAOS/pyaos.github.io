@@ -15,10 +15,10 @@ micro_nav: true
 page_nav:
     prev:
         content: Previous page
-        url: '/stack'
+        url: '/install'
     next:
         content: Next page
         url: '/training'
 ---
 
-Package listing...
+Coming soon...
