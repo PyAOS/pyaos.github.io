@@ -57,6 +57,9 @@ EOF analysis of spatial-temporal data.
 **[windspharm](https://ajdawson.github.io/windspharm/latest/)** (Andrew Dawson)  
 Computations on global wind fields in spherical geometry.
 
+**[Siphon](https://www.unidata.ucar.edu/software/siphon/)** ([UniData](https://www.unidata.ucar.edu/))  
+Utilities for downloading data from remote data services.
+
 ## Visualisation
 
 **[Cartopy](https://scitools.org.uk/cartopy/docs/latest/)** ([SciTools](https://scitools.org.uk/) project)  
