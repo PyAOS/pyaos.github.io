@@ -55,6 +55,9 @@ While this package is very useful for researchers in Australia who want to searc
 on the National Computational Infrastructure in Canberra,
 most people in the PyAOS community don't have access to that facility.
 In other words, this package isn't for a general audience.
+* The [GeoPandas](https://geopandas.org/) package: While this is a great package for working with geospatial vector data,
+it is of interest to the much broader field of geospatial data science.
+In other words, it isn't unique (or even predominantly used by) the PyAOS community.
 
 If you're unsure whether a particular Python package or training resource is within scope,
 feel free to [open an issue](https://github.com/PyAOS/pyaos.github.io/issues)
