@@ -101,7 +101,6 @@ using a conda installation package that they've uploaded to Anaconda Cloud.
     </p>
 </div>
 
-## Summary
 
 
  
