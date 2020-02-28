@@ -4,7 +4,7 @@ doks:
     color_theme: # Available themes: blue (default), green, purple, red and yellow
     header:
         logo:
-            text: Python for Atmosphere and Ocean Science
+            text: PyAOS
             image:
         nav:
             - item_name: PyAOS Stack
