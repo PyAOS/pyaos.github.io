@@ -60,6 +60,10 @@ Computations on global wind fields in spherical geometry.
 **[Siphon](https://www.unidata.ucar.edu/software/siphon/)** ([UniData](https://www.unidata.ucar.edu/))  
 Utilities for downloading data from remote data services.
 
+**[climtas](https://climtas.readthedocs.io/en/latest/)** (Scott Wales)  
+Climtas is a package for working with large climate analyses.
+It focuses on the time domain with custom functions for Xarray and Dask data.
+
 ## Visualisation
 
 **[Cartopy](https://scitools.org.uk/cartopy/docs/latest/)** ([SciTools](https://scitools.org.uk/) project)  
