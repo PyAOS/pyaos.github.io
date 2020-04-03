@@ -93,6 +93,9 @@ Utilities for working with disdrometer data.
 **[GSW-Python](https://teos-10.github.io/GSW-Python/)**  
 Python implementation of the Thermodynamic Equation of Seawater 2010 (TEOS-10).
 
+**[argopy](https://github.com/euroargodev/argopy)**
+Argo data access, visualisation and manipulation.
+
 ## Climate
 
 **[climtas](https://climtas.readthedocs.io/en/latest/)** (Scott Wales)  
