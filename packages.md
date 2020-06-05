@@ -96,6 +96,9 @@ Python implementation of the Thermodynamic Equation of Seawater 2010 (TEOS-10).
 **[argopy](https://github.com/euroargodev/argopy)** (Guillaume Maze)  
 Argo data access, visualisation and manipulation.
 
+**[mixsea](https://mixsea.readthedocs.io/en/latest/)** (Jesse Cusack & Gunnar Voet)  
+Turbulence parameter estimation from fine scale oceanographic data.
+
 ## Climate
 
 **[climtas](https://climtas.readthedocs.io/en/latest/)** (Scott Wales)  
