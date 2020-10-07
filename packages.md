@@ -57,6 +57,9 @@ EOF analysis of spatial-temporal data.
 **[windspharm](https://ajdawson.github.io/windspharm/latest/)** (Andrew Dawson)  
 Computations on global wind fields in spherical geometry.
 
+**[cf-xarray](https://cf-xarray.readthedocs.io/en/latest/)** (Deepak Cherian)  
+Lightweight accessor for xarray objects that interprets CF attributes.
+
 **[Siphon](https://www.unidata.ucar.edu/software/siphon/)** ([UniData](https://www.unidata.ucar.edu/))  
 Utilities for downloading data from remote data services.
 
