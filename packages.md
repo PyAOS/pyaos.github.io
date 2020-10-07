@@ -91,6 +91,9 @@ Toolkit for working with atmospheric time-series datasets of varying dimensions.
 **[PyDSD](http://josephhardinee.github.io/PyDSD/)** (Joseph Hardin and Nick Guy)  
 Utilities for working with disdrometer data.
 
+**[pyPI](https://github.com/dgilford/pyPI)** (Daniel Gilford)  
+Tropical cyclone potential intensity calculations.
+
 ## Oceanography
 
 **[GSW-Python](https://teos-10.github.io/GSW-Python/)**  
