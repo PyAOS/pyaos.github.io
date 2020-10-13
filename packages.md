@@ -107,6 +107,9 @@ Turbulence parameter estimation from fine scale oceanographic data.
 
 ## Climate
 
+**[climpred](https://climpred.readthedocs.io/en/stable/)** (Riley Brady and Aaron Spring)  
+Verification of weather and climate forecasts.
+
 **[climtas](https://climtas.readthedocs.io/en/latest/)** (Scott Wales)  
 Climtas is a package for working with large climate analyses.
 It focuses on the time domain with custom functions for Xarray and Dask data.
