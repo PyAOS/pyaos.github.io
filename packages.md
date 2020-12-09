@@ -63,6 +63,9 @@ Lightweight accessor for xarray objects that interprets CF attributes.
 **[Siphon](https://www.unidata.ucar.edu/software/siphon/)** ([UniData](https://www.unidata.ucar.edu/))  
 Utilities for downloading data from remote data services.
 
+**[regionmask](https://regionmask.readthedocs.io/)** (Mathias Hauser)  
+Masks for commonly used geographic regions (Giorgi, SREX, etc)
+
 ## Visualisation
 
 **[Cartopy](https://scitools.org.uk/cartopy/docs/latest/)** ([SciTools](https://scitools.org.uk/) project)  
