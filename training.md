@@ -61,6 +61,8 @@ is an open source book from Ryan Abernathy and Kerry Key that grew out of a
 semester-long class at Columbia University
 * [Python for the Geosciences](https://github.com/kthyng/python4geosciences)
 is a semester-long class offered by the Oceanography Department at Texas A&M University
+* [Research Software Engineering with Python](https://merely-useful.github.io/py-rse/)
+is an open source book from a group of Carpentries instructors
 
 
 ## Additional resources
