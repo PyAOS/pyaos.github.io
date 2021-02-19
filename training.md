@@ -55,14 +55,19 @@ for any of the workshops listed above.
 #### Books and university courses
 
 If you're looking for something longer than a single-day workshop,
-check out the following:
-* [Earth and Environmental Data Science](https://earth-env-data-science.github.io)
-is an open source book from Ryan Abernathy and Kerry Key that grew out of a
-semester-long class at Columbia University
+check out the following
+(listed in approximate order from beginner to more advanced):  
+* [Python Programming and Visualization for Scientists](https://sundogpublishingstore.myshopify.com/products/python-programming-and-visualization-for-scientists-2nd-ed) is a general introudction to Python for scientists,
+but some of the plotting and data examples have a meteorological slant
+because both the authors (Alex DeCaria and Grant Petty) are professors in meteorology.
 * [Python for the Geosciences](https://github.com/kthyng/python4geosciences)
-is a semester-long class offered by the Oceanography Department at Texas A&M University
+is an open source semester-long class offered by the Oceanography Department at Texas A&M University.
+* [Earth and Environmental Data Science](https://earth-env-data-science.github.io)
+is an open source book from oceanographers Ryan Abernathy and Kerry Key,
+which grew out of a semester-long class at Columbia University.
 * [Research Software Engineering with Python](https://merely-useful.github.io/py-rse/)
-is an open source book from a group of Carpentries instructors
+is an open source book from a group of Carpentries instructors,
+including climate scientist Damien Irving.
 
 
 ## Additional resources
@@ -71,10 +76,6 @@ Once you're comfortable with the basics,
 the following training resources might be of use:
 * [Pangeo use case gallery](https://pangeo.io/use_cases/index.html) for dealing with big data
 * [EarthML](https://earthml.holoviz.org/index.html) for machine learning and visualization in Python for Earth science
-
-
-
-
 
 
 
