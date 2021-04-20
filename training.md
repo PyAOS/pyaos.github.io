@@ -16,6 +16,9 @@ page_nav:
     prev:
         content: Previous page
         url: '/packages'
+    next:
+        content: Next page
+        url: '/census'
 ---
 
 <div class="callout callout--success">

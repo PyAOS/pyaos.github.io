@@ -15,6 +15,8 @@ doks:
               item_url: '/packages'
             - item_name: Training
               item_url: '/training'
+            - item_name: Census
+              item_url: '/census'
     footer:
         content:
             logo:

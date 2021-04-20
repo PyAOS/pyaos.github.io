@@ -40,4 +40,8 @@ grid_navigation:
       excerpt: Resources for PyAOS teachers and learners.
       cta: Read more
       url: '/training'
+    - title: Census
+      excerpt: Learning more about our community.
+      cta: Read more
+      url: '/census'
 ---
