@@ -14,6 +14,9 @@ buttons:
       content: Contribute on GitHub
       url: 'https://github.com/PyAOS/pyaos.github.io'
       external_url: true
+    - content: Fill out the PyAOS Census
+      url: 'https://forms.gle/L84W7bsxmP86G3Ji9'
+      external_url: true
 
 # Author box
 author:
