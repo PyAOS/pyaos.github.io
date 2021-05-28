@@ -110,6 +110,9 @@ Turbulence parameter estimation from fine scale oceanographic data.
 
 ## Climate
 
+**[xclim](https://xclim.readthedocs.io/en/latest/)** ([Ouranos](https://ouranos.ca/))  
+Functions to compute climate indices from observations or model simulations.
+
 **[climpred](https://climpred.readthedocs.io/en/stable/)** (Riley Brady and Aaron Spring)  
 Verification of weather and climate forecasts.
 
