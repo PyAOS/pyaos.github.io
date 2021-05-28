@@ -150,7 +150,7 @@ import pytz
 import csv
 import os
 ",,
-9,2021/04/20 5:06:51 PM GMT+10,20-29,Man,Academic (within 5 years of highest qualification),Cloud Physics;Meteorology;Tropospheric and Stratospheric Physics;Modelling,UK,6-10 years,"Self taught (from textbooks, online tutorials, etc)","Unidata's workshop materials, Software Carpentry, Coursera",Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid);Tabular data,Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid),netCDF;GeoTIFF;CSV;HDF;A custom binary format,netCDF,Personal laptop/desktop;Supercomputer (e.g. run by your institution or a national facility),Personal laptop/desktop,Jupyter;Vim,"import re
+9,2021/04/20 5:06:51 PM GMT+10,20-29,Man,Academic (within 5 years of highest qualification),Cloud Physics;Meteorology;Tropospheric and Stratospheric Physics;Modelling,GB,6-10 years,"Self taught (from textbooks, online tutorials, etc)","Unidata's workshop materials, Software Carpentry, Coursera",Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid);Tabular data,Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid),netCDF;GeoTIFF;CSV;HDF;A custom binary format,netCDF,Personal laptop/desktop;Supercomputer (e.g. run by your institution or a national facility),Personal laptop/desktop,Jupyter;Vim,"import re
 import warnings
 import datetime
 import functools
@@ -214,7 +214,7 @@ from cartopy import ccrs
 import pandas as pd
 import netcdf4",import re,
 15,2021/04/20 10:06:40 PM GMT+10,20-29,Man,PhD student,Climate Change Processes;Climatology (excl. Climate Change Processes);Meteorology;Biological Oceanography;Physical Oceanography;Modelling;AOS Research Software Engineer;AOS Research Computing Support,US,2-5 years,"Self taught (from textbooks, online tutorials, etc)","Nowadays there are a ton of great free online resources like FreeCodeCamp, YouTube, StackOverflow, ...",Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid),Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid),netCDF;Zarr;CSV;GRIB;HDF;GeoJSON,netCDF,Personal laptop/desktop;Supercomputer (e.g. run by your institution or a national facility);Cloud (e.g. Amazon Web Services),Personal laptop/desktop,Jupyter;Vim;VS Code,Sorry too lazy to do this,,
-16,2021/04/20 10:11:26 PM GMT+10,40-49,Man,Academic (more than 5 years post highest qualification),Atmospheric Dynamics;Cloud Physics;Meteorology,AU,More than 10 years,"Self taught (from textbooks, online tutorials, etc)","Stack Overflow, Scipy conferences, AMS Python Symposiums ","Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid);Vector data (i.e. discrete geometric locations that define the shape of a spatial point, line or polygon);Tabular data",All of the above plus instrument data,netCDF;Zarr;GeoTIFF;CSV;GRIB;HDF;GeoJSON;ESRI File Geodatabase;A custom binary format,A custom binary format,Personal laptop/desktop;Supercomputer (e.g. run by your institution or a national facility);Cloud (e.g. Amazon Web Services),Personal laptop/desktop,Jupyter;PyCharm;Vim,"import nexradaws
+16,2021/04/20 10:11:26 PM GMT+10,40-49,Man,Academic (more than 5 years post highest qualification),Atmospheric Dynamics;Cloud Physics;Meteorology,AU,More than 10 years,"Self taught (from textbooks, online tutorials, etc)","Stack Overflow, Scipy conferences, AMS Python Symposiums ","Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid);Vector data (i.e. discrete geometric locations that define the shape of a spatial point, line or polygon);Tabular data",,netCDF;Zarr;GeoTIFF;CSV;GRIB;HDF;GeoJSON;ESRI File Geodatabase;A custom binary format,A custom binary format,Personal laptop/desktop;Supercomputer (e.g. run by your institution or a national facility);Cloud (e.g. Amazon Web Services),Personal laptop/desktop,Jupyter;PyCharm;Vim,"import nexradaws
 import tempfile
 import os
 import shutil
@@ -252,7 +252,7 @@ from siphon.catalog import TDSCatalog
 from siphon.simplewebservice.wyoming import IowaStateUpperAir
 from siphon.simplewebservice.wyoming import WyomingUpperAir
 import xarray as xr","plotly, dask, multiprocessing, f90nml, wrf_python",
-18,2021/04/20 10:27:54 PM GMT+10,40-49,Man,Government,Cloud Physics;Atmospheric and Space Electricity,US,6-10 years,"Self taught (from textbooks, online tutorials, etc)",Johnny Lin's book and Stack Exchange,"Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid);Vector data (i.e. discrete geometric locations that define the shape of a spatial point, line or polygon);Tabular data",Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid),netCDF;GeoTIFF;CSV;HDF;Shapefile,netCDF,Personal laptop/desktop,Personal laptop/desktop,Jupyter;Vim;Xcode,"import numpy as np
+18,2021/04/20 10:27:54 PM GMT+10,40-49,Man,,Cloud Physics;Atmospheric and Space Electricity,US,6-10 years,"Self taught (from textbooks, online tutorials, etc)",Johnny Lin's book and Stack Exchange,"Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid);Vector data (i.e. discrete geometric locations that define the shape of a spatial point, line or polygon);Tabular data",Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid),netCDF;GeoTIFF;CSV;HDF;Shapefile,netCDF,Personal laptop/desktop,Personal laptop/desktop,Jupyter;Vim;Xcode,"import numpy as np
 import matplotlib
 import datetime as dt
 import os
@@ -324,7 +324,7 @@ import colorcet as cc
 from intake import open_catalog
 import urllib.request
 import yaml",,
-22,2021/04/20 11:02:59 PM GMT+10,30-39,,Government  (within 5 years of highest qualification),Atmospheric Dynamics;Atmospheric Radiation;Meteorology;Tropical meteorology,US,More than 10 years,"Self taught (from textbooks, online tutorials, etc)",,"Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid);Vector data (i.e. discrete geometric locations that define the shape of a spatial point, line or polygon);Tabular data",Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid),netCDF;GeoTIFF;CSV;GRIB;HDF,netCDF,Personal laptop/desktop;Supercomputer (e.g. run by your institution or a national facility);Cloud (e.g. Amazon Web Services);Cluster,Cluster,Vim,"import glob
+22,2021/04/20 11:02:59 PM GMT+10,30-39,,Industry / Professional (more than 5 years post highest qualification),Atmospheric Dynamics;Atmospheric Radiation;Meteorology;Tropical meteorology,US,More than 10 years,"Self taught (from textbooks, online tutorials, etc)",,"Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid);Vector data (i.e. discrete geometric locations that define the shape of a spatial point, line or polygon);Tabular data",Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid),netCDF;GeoTIFF;CSV;GRIB;HDF,netCDF,Personal laptop/desktop;Supercomputer (e.g. run by your institution or a national facility);Cloud (e.g. Amazon Web Services);Cluster,Local server (e.g. provided by your department),Vim,"import glob
 import so
 import sys
 import psutil
@@ -404,7 +404,7 @@ import xarray as xr","scipy, pint, pyproj, netcdf4-python",
 import xarray as xr
 import matplotlib.pyplot as plt
 from glob import glob",,
-31,2021/04/21 1:49:37 AM GMT+10,30-39,Man,Academic (more than 5 years post highest qualification),Cloud Physics;Meteorology;AOS Research Software Engineer,US,6-10 years,"Workshop/s (e.g. Carpentries, Unidata);Self taught (from textbooks, online tutorials, etc);On the job","Unidata, Package Documentation/User Guides, StackOverflow",Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid),Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid),netCDF;CSV;GRIB;HDF;A custom binary format,netCDF,Linux Workstation,Linux Workstation,Vim,import xarray as xr import pandas as pd import os import subprocess import datetime,"MetPy, multiprocessing, Cartopy",
+31,2021/04/21 1:49:37 AM GMT+10,30-39,Man,Academic (more than 5 years post highest qualification),Cloud Physics;Meteorology;AOS Research Software Engineer,US,6-10 years,"Workshop/s (e.g. Carpentries, Unidata);Self taught (from textbooks, online tutorials, etc);On the job","Unidata, Package Documentation/User Guides, StackOverflow",Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid),Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid),netCDF;CSV;GRIB;HDF;A custom binary format,netCDF,Linux Workstation,Personal laptop/desktop,Vim,import xarray as xr import pandas as pd import os import subprocess import datetime,"MetPy, multiprocessing, Cartopy",
 32,2021/04/21 1:52:29 AM GMT+10,20-29,Man,PhD student,Atmospheric Dynamics;Cloud Physics;Meteorology;Modelling,US,6-10 years,"University semester course/s (e.g. ""Introduction to Programming"");Self taught (from textbooks, online tutorials, etc)","Codecademy, MetPy Example Gallery",Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid);Tabular data,Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid),netCDF;CSV;GRIB;Shapefile;A custom binary format,netCDF,Personal laptop/desktop;Supercomputer (e.g. run by your institution or a national facility),Supercomputer (e.g. run by your institution or a national facility),Jupyter;Spyder;Vim,"import numpy as np
 import numpy.ma as ma
 import xarray as xr
@@ -762,7 +762,7 @@ import cartopy.crs as ccrs
 import cartopy.feature as cfeature
 import numba.njit",numexpr,
 49,2021/04/21 10:03:36 AM GMT+10,40-49,Man,Industry / Professional (more than 5 years post highest qualification),Climatology (excl. Climate Change Processes),US,2-5 years,"Self taught (from textbooks, online tutorials, etc)",,"Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid);Vector data (i.e. discrete geometric locations that define the shape of a spatial point, line or polygon);Tabular data",Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid),netCDF;GeoTIFF;CSV;HDF;Shapefile,Shapefile,Personal laptop/desktop;Supercomputer (e.g. run by your institution or a national facility),Supercomputer (e.g. run by your institution or a national facility),Spyder;vscode,import xarray as xr,pywgrib2_s,
-50,2021/04/21 10:31:07 AM GMT+10,60-69,Man,Industry / Professional (more than 5 years post highest qualification),Climatology (excl. Climate Change Processes),AU,More than 10 years,"Self taught (from textbooks, online tutorials, etc)",python.org,"Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid);Vector data (i.e. discrete geometric locations that define the shape of a spatial point, line or polygon);Tabular data",point data,netCDF;GRIB;HDF;GeoJSON;Shapefile,CSV,Personal laptop/desktop;Cloud (e.g. Amazon Web Services),Personal laptop/desktop,Jupyter;Vim;vscode,"import numpy as np
+50,2021/04/21 10:31:07 AM GMT+10,60-69,Man,Industry / Professional (more than 5 years post highest qualification),Climatology (excl. Climate Change Processes),AU,More than 10 years,"Self taught (from textbooks, online tutorials, etc)",python.org,"Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid);Vector data (i.e. discrete geometric locations that define the shape of a spatial point, line or polygon);Tabular data",,netCDF;GRIB;HDF;GeoJSON;Shapefile,CSV,Personal laptop/desktop;Cloud (e.g. Amazon Web Services),Personal laptop/desktop,Jupyter;Vim;vscode,"import numpy as np
 import pandas as pd",plotnine,
 51,2021/04/21 10:59:51 AM GMT+10,30-39,Man,Industry / Professional (more than 5 years post highest qualification),Meteorology,US,6-10 years,"Workshop/s (e.g. Carpentries, Unidata);Self taught (from textbooks, online tutorials, etc)",Github! Digging in people code,Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid),"Vector data (i.e. discrete geometric locations that define the shape of a spatial point, line or polygon)",netCDF;Zarr;GeoTIFF;GRIB;geoparquet,Zarr,Personal laptop/desktop;Cloud (e.g. Amazon Web Services),,Jupyter;vs code,"import xarray as xr
 import geopandas as gpd
@@ -961,7 +961,7 @@ import urllib2
 import uuid
 import xarray as xr
 ",,
-79,2021/04/24 1:01:17 AM GMT+10,40-49,Man,,Modelling;AOS Research Software Engineer,US,More than 10 years,"Self taught (from textbooks, online tutorials, etc);REU ","Dunno, but it's generally much, much better than when I learned it.","Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid);Vector data (i.e. discrete geometric locations that define the shape of a spatial point, line or polygon);Tabular data",Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid),"netCDF;GeoTIFF;CSV;GRIB;A custom binary format;audio, images, video",netCDF,Personal laptop/desktop;Supercomputer (e.g. run by your institution or a national facility);Cloud (e.g. Amazon Web Services);on-prem servers,on-prem servers,Jupyter;Vim;vs code,"from pathlib import Path
+79,2021/04/24 1:01:17 AM GMT+10,40-49,Man,,Modelling;AOS Research Software Engineer,US,More than 10 years,"Self taught (from textbooks, online tutorials, etc);REU ","Dunno, but it's generally much, much better than when I learned it.","Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid);Vector data (i.e. discrete geometric locations that define the shape of a spatial point, line or polygon);Tabular data",Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid),"netCDF;GeoTIFF;CSV;GRIB;A custom binary format;audio, images, video",netCDF,Personal laptop/desktop;Supercomputer (e.g. run by your institution or a national facility);Cloud (e.g. Amazon Web Services);on-prem servers,Local server (e.g. provided by your department),Jupyter;Vim;vs code,"from pathlib import Path
 import geopandas as gdp
 import numpy as np
 import statsmodels
@@ -1384,7 +1384,7 @@ from mpl_toolkits.mplot3d import Axes3D
 import gsw
 import cmocean
 import string",,
-112,2021/04/28 10:50:52 AM GMT+10,30-39,Man,Academic (within 5 years of highest qualification),Physical Oceanography;Modelling,US,2-5 years,"Self taught (from textbooks, online tutorials, etc)",https://earth-env-data-science.github.io/,"Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid);Vector data (i.e. discrete geometric locations that define the shape of a spatial point, line or polygon);Tabular data",Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid),netCDF;Zarr;CSV,Zarr,Personal laptop/desktop;Supercomputer (e.g. run by your institution or a national facility);Cloud (e.g. Amazon Web Services);Server,"I work on supercomputer, server and cloud about equally",Jupyter,"import xarray as xr
+112,2021/04/28 10:50:52 AM GMT+10,30-39,Man,Academic (within 5 years of highest qualification),Physical Oceanography;Modelling,US,2-5 years,"Self taught (from textbooks, online tutorials, etc)",https://earth-env-data-science.github.io/,"Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid);Vector data (i.e. discrete geometric locations that define the shape of a spatial point, line or polygon);Tabular data",Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid),netCDF;Zarr;CSV,Zarr,Personal laptop/desktop;Supercomputer (e.g. run by your institution or a national facility);Cloud (e.g. Amazon Web Services);Server,,Jupyter,"import xarray as xr
 import numpy as np
 from glob import glob
 from xgcm.grid import Grid
@@ -1568,7 +1568,7 @@ import xarray as xr
 import matplotlib.pyplot as plt
 import statsmodels
 import cartopy","pandas, scipy, astropy",
-129,2021/04/29 1:23:50 AM GMT+10,30-39,Man,Academic (more than 5 years post highest qualification),Biological Oceanography;Chemical Oceanography;Physical Oceanography;visualisation systems,UK,More than 10 years,"Self taught (from textbooks, online tutorials, etc)",stackoverflow & o'reilly books,Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid),Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid),netCDF;GeoTIFF,netCDF,Personal laptop/desktop;Supercomputer (e.g. run by your institution or a national facility);Cloud (e.g. Amazon Web Services),Personal laptop/desktop,vs code,"import sys
+129,2021/04/29 1:23:50 AM GMT+10,30-39,Man,Academic (more than 5 years post highest qualification),Biological Oceanography;Chemical Oceanography;Physical Oceanography;visualisation systems,GB,More than 10 years,"Self taught (from textbooks, online tutorials, etc)",stackoverflow & o'reilly books,Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid),Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid),netCDF;GeoTIFF,netCDF,Personal laptop/desktop;Supercomputer (e.g. run by your institution or a national facility);Cloud (e.g. Amazon Web Services),Personal laptop/desktop,vs code,"import sys
 import os
 import numpy
 import matplotlib.pyplot as plt
@@ -1576,7 +1576,7 @@ import cartopy
 import netcdf
 import xarray
 ",oswlib,
-130,2021/04/29 1:49:44 AM GMT+10,50-59,Man,Academic (more than 5 years post highest qualification),Meteorology,US,1-2 years,"Self taught (from textbooks, online tutorials, etc)","I mostly find examples that do something that I need (I/O, calculate, plot, etc.).  Not efficient.",Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid);Tabular data,Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid),netCDF;GeoTIFF;CSV;GRIB;GeoJSON;Shapefile,GRIB,"Personal laptop/desktop;Linux server provided by University.  Multi-core, but not cluster.","Linux server provided by University.  Multi-core, but not cluster.",Jupyter;Spyder;Emacs,"Mostly looks like your list, add metpy, siphon.  No time to do what you want, sorry.",,The most difficult challenge is getting working Python environments on student computers.
+130,2021/04/29 1:49:44 AM GMT+10,50-59,Man,Academic (more than 5 years post highest qualification),Meteorology,US,1-2 years,"Self taught (from textbooks, online tutorials, etc)","I mostly find examples that do something that I need (I/O, calculate, plot, etc.).  Not efficient.",Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid);Tabular data,Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid),netCDF;GeoTIFF;CSV;GRIB;GeoJSON;Shapefile,GRIB,"Personal laptop/desktop;Linux server provided by University.  Multi-core, but not cluster.",Local server (e.g. provided by your department),Jupyter;Spyder;Emacs,"Mostly looks like your list, add metpy, siphon.  No time to do what you want, sorry.",,The most difficult challenge is getting working Python environments on student computers.
 131,2021/04/29 5:02:26 AM GMT+10,30-39,Woman,Academic (within 5 years of highest qualification),Physical Oceanography,US,6-10 years,"Self taught (from textbooks, online tutorials, etc)",,"Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid);Vector data (i.e. discrete geometric locations that define the shape of a spatial point, line or polygon)",Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid),netCDF;CSV,netCDF,Personal laptop/desktop;Supercomputer (e.g. run by your institution or a national facility),Supercomputer (e.g. run by your institution or a national facility),Vim,"import sys, is
 import numpy as np
 import maplotlib as mpl
@@ -1672,3 +1672,80 @@ from matplotlib.font_manager import FontProperties
 import proplot as prpt
 import warnings
 warnings.simplefilter(""ignore"")",I also use cartopy for mapping.,Thank you for the opportunity and engaging the community. I tried to contribute but so far things are going slow but hope I can do better and communicate more with Python/AOS community.
+141,2021/05/24 10:54:03 AM GMT+10,30-39,Man,Industry / Professional (more than 5 years post highest qualification),AOS Research Software Engineer;AOS Research Computing Support,AU,More than 10 years,"Self taught (from textbooks, online tutorials, etc)",hands-on experience and stack exchange,"Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid);Vector data (i.e. discrete geometric locations that define the shape of a spatial point, line or polygon);Tabular data",Tabular data,netCDF;GeoTIFF;CSV;GeoJSON;Shapefile;ESRI File Geodatabase,CSV,Personal laptop/desktop;Supercomputer (e.g. run by your institution or a national facility),Personal laptop/desktop,PyCharm;Sublime Text,"import argparse
+import base64
+import csv
+import datetime
+import fnmatch
+import io
+import json
+import logging
+import os
+import pathlib
+import re
+import select
+import subprocess
+import sys
+import time
+import uuid
+from collections import Counter
+from collections import OrderedDict, namedtuple
+from io import BytesIO
+from time import strftime
+
+import cartopy
+import dash
+import descartes
+import exifread
+import fiona
+import geojson
+import geopandas as gpd
+import gsw
+import imageio
+import matplotlib
+import netcdf4
+import numpy as np
+import pandas as pd
+import plotly
+import pydap
+import pytz
+import rasterio as rio
+import requests
+import scipy
+import seaborn
+import shapely
+import skimage
+import sklearn
+import sqlalchemy
+import statsmodels
+import v4l2capture
+import xarray
+import xlrd
+from PIL import Image
+from PIL import ImageOps
+from PIL.ExifTags import TAGS
+from RPi import GPIO
+from asteval import Interpreter
+from dataclasses import dataclass
+from siphon import catalog",,
+142,2021/05/25 10:47:33 AM GMT+10,40-49,Man,Academic (more than 5 years post highest qualification),Climate Change Processes;Physical Oceanography,AU,1-2 years,"Workshop/s (e.g. Carpentries, Unidata);Self taught (from textbooks, online tutorials, etc)",I've yet to find a really good resource,Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid);Tabular data,Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid),netCDF;CSV,netCDF,Personal laptop/desktop;Supercomputer (e.g. run by your institution or a national facility),Personal laptop/desktop,Jupyter,"import cosima_cookbook as cc
+from dask.distributed import Client
+import os,sys
+import matplotlib.pyplot as plt
+import numpy as np
+import xarray as xr
+import pandas as pd
+import xesmf",,My biggest frustration with python is that the standard of documentation is really low. This includes pangeo libraries like xarray and cartopy.
+143,2021/05/25 8:38:23 PM GMT+10,30-39,Man,PhD student,Atmospheric Aerosols;Atmospheric Dynamics;Climate Change Processes;Climatology (excl. Climate Change Processes);Biological Oceanography;Chemical Oceanography;Physical Oceanography;Modelling,IN,2-5 years,"Self taught (from textbooks, online tutorials, etc)",,"Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid);Vector data (i.e. discrete geometric locations that define the shape of a spatial point, line or polygon);Tabular data",Raster data (i.e. multi-dimensional gridded data such as a regular time/latitude/longitude/depth grid),netCDF;Zarr;GRIB;HDF;GeoJSON;GeoPackage;Shapefile;ESRI File Geodatabase,netCDF,Personal laptop/desktop;Supercomputer (e.g. run by your institution or a national facility),Personal laptop/desktop,Jupyter;PyCharm;Notepad ++,Import xarray as xr,,
+144,2021/05/27 2:12:58 AM GMT+10,20-29,Man,Undergraduate student,Meteorology,CN,2-5 years,"Self taught (from textbooks, online tutorials, etc)",This is I need.,,,,,,,,"import numpy as np
+import xarray as xr
+import cartopy.crs as ccrs
+import matplotlib.pyplot as plt
+import cartopy.feature as cfeature
+import cartopy.mpl.ticker as cticker
+from cartopy.mpl.ticker import LongitudeFormatter, LatitudeFormatter
+import cmaps
+from cartopy.util import add_cyclic_point
+import matplotlib.path as mpath
+import matplotlib
+from matplotlib import cm",,
