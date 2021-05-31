@@ -321,7 +321,7 @@ participant,libraries
 32,xarray
 33,datetime
 33,matplotlib
-33,mpl_toolkits.basemap
+33,mpl_toolkits
 33,netcdf4
 33,nio
 33,numpy
@@ -498,14 +498,14 @@ participant,libraries
 46,datetime
 46,gc
 46,glob
-46,itertools import combinations
-46,joblib import memory
+46,itertools
+46,joblib
 46,matplotlib
 46,metpy
 46,mpl_toolkits
-46,multiprocessing import pool
+46,multiprocessing
 46,netcdf4
-46,numba import jit
+46,numba
 46,numpy
 46,operator
 46,os
@@ -522,7 +522,6 @@ participant,libraries
 46,sklearn
 46,time
 46,xarray
-47,too many
 48,cartopy
 48,matplotlib
 48,numba
@@ -678,7 +677,7 @@ participant,libraries
 76,iris
 76,matplotlib
 76,numpy
-76,scipy as sp
+76,scipy
 76,xarray
 77,bs4
 77,cartopy
@@ -762,7 +761,7 @@ participant,libraries
 83,climtas
 83,cmocean
 83,collections
-83,dask.array
+83,dask
 83,datetime
 83,glob
 83,matplotlib
@@ -811,7 +810,6 @@ participant,libraries
 85,xarray
 85,zarr
 86,dask
-86,dask_jobqueue
 86,distributed
 86,glob
 86,matplotlib
