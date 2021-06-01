@@ -36,7 +36,6 @@
 17,VSCode
 18,Jupyter
 18,Vim
-18,Xcode
 19,Jupyter
 19,Vim
 20,Jupyter
@@ -238,7 +237,7 @@
 126,Vim
 126,Atom
 127,Jupyter
-127,Visual studio
+127,VSCode
 128,Jupyter
 128,Spyder
 128,Vim
