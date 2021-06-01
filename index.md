@@ -18,13 +18,6 @@ buttons:
       url: 'https://forms.gle/L84W7bsxmP86G3Ji9'
       external_url: true
 
-# Author box
-author:
-    title: About Author
-    title_url: 'http://damienirving.github.io/'
-    external_url: true
-    description: Damien Irving
-
 # Grid navigation
 grid_navigation:
     - title: The PyAOS Stack
