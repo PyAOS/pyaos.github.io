@@ -88,6 +88,9 @@ Reading, manipulating, and writing data from remote-sensing earth-observing mete
 **[Py-ART](https://arm-doe.github.io/pyart/)** ([ARM User Facility](https://www.arm.gov/data/work-with-arm-data))  
 Weather radar algorithms and utilities.
 
+**[PyDDA](https://openradarscience.org/PyDDA/)**  
+Direct data assimilation framework for wind retrievals.
+
 **[ACT](https://arm-doe.github.io/ACT/)** ([ARM User Facility](https://www.arm.gov/data/work-with-arm-data))  
 Toolkit for working with atmospheric time-series datasets of varying dimensions.
 
