@@ -57,7 +57,7 @@ EOF analysis of spatial-temporal data.
 **[windspharm](https://ajdawson.github.io/windspharm/latest/)** (Andrew Dawson)  
 Computations on global wind fields in spherical geometry.
 
-**[cf-xarray](https://cf-xarray.readthedocs.io/en/latest/)** (Deepak Cherian)  
+**[cf-xarray](https://cf-xarray.readthedocs.io/)** (Deepak Cherian)  
 Lightweight accessor for xarray objects that interprets CF attributes.
 
 **[Siphon](https://www.unidata.ucar.edu/software/siphon/)** ([UniData](https://www.unidata.ucar.edu/))  
@@ -82,7 +82,7 @@ Beautiful colormaps for oceanography.
 **[MetPy](https://www.unidata.ucar.edu/software/metpy/)** ([UniData](https://www.unidata.ucar.edu/))  
 Tools for reading, visualising and performing calculations with weather data.
 
-**[Satpy](https://satpy.readthedocs.io/en/latest/)** ([PyTroll community](http://pytroll.github.io/))  
+**[Satpy](https://satpy.readthedocs.io/)** ([PyTroll community](http://pytroll.github.io/))  
 Reading, manipulating, and writing data from remote-sensing earth-observing meteorological satellite instruments.
 
 **[Py-ART](https://arm-doe.github.io/pyart/)** ([ARM User Facility](https://www.arm.gov/data/work-with-arm-data))  
@@ -108,33 +108,39 @@ Python implementation of the Thermodynamic Equation of Seawater 2010 (TEOS-10).
 **[argopy](https://github.com/euroargodev/argopy)** (Guillaume Maze)  
 Argo data access, visualisation and manipulation.
 
-**[mixsea](https://mixsea.readthedocs.io/en/latest/)** (Jesse Cusack & Gunnar Voet)  
+**[mixsea](https://mixsea.readthedocs.io/)** (Jesse Cusack & Gunnar Voet)  
 Turbulence parameter estimation from fine scale oceanographic data.
 
 ## Climate
 
-**[xclim](https://xclim.readthedocs.io/en/latest/)** ([Ouranos](https://ouranos.ca/))  
+**[ESMValTool](https://docs.esmvaltool.org/)**  
+Diagnostics and performance metrics for the evaluation of CMIP models.
+
+**[cmip6_preprocessing](https://cmip6-preprocessing.readthedocs.io/)** (Julius Busecke)  
+Tools for cleaning/standardization of the metadata associated with CMIP6 data files.
+
+**[xclim](https://xclim.readthedocs.io/)** ([Ouranos](https://ouranos.ca/))  
 Functions to compute climate indices from observations or model simulations.
 
-**[climpred](https://climpred.readthedocs.io/en/stable/)** (Riley Brady and Aaron Spring)  
+**[climpred](https://climpred.readthedocs.io/)** (Riley Brady and Aaron Spring)  
 Verification of weather and climate forecasts.
 
-**[climtas](https://climtas.readthedocs.io/en/latest/)** (Scott Wales)  
+**[climtas](https://climtas.readthedocs.io/)** (Scott Wales)  
 Climtas is a package for working with large climate analyses.
 It focuses on the time domain with custom functions for Xarray and Dask data.
 
-**[climate-indices](https://climate-indices.readthedocs.io/en/latest/)** (James Adams)  
+**[climate-indices](https://climate-indices.readthedocs.io/)** (James Adams)  
 Various climate index algorithms relating to precipitation and temperature.
 
 ## Regridding
 
-**[xESMF](https://xesmf.readthedocs.io/en/latest/)** (Jiawei Zhuang)  
+**[xESMF](https://xesmf.readthedocs.io/)** (Jiawei Zhuang)  
 Universal regridder for geospatial data.
 
 **[gridded](https://noaa-orr-erd.github.io/gridded/)** (NOAA-ORR-ERD)  
 A single way to work with results from any hydrodynamic/oceanographic model regardless of what type of grid it was computed on.
 
-**[pyResample](https://pyresample.readthedocs.io/en/latest/)** ([PyTroll community](http://pytroll.github.io/))  
+**[pyResample](https://pyresample.readthedocs.io/)** ([PyTroll community](http://pytroll.github.io/))  
 Resampling geospatial image data.
 
 **[ESMPy](https://earthsystemcog.org/projects/esmpy/)**  
@@ -145,13 +151,13 @@ Interface to PROJ (cartographic projections and coordinate transformations libra
 
 ## Modeling
 
-**[wrf-python](https://wrf-python.readthedocs.io/en/latest/)** ([GeoCAT](https://geocat.ucar.edu/) project)   
+**[wrf-python](https://wrf-python.readthedocs.io/)** ([GeoCAT](https://geocat.ucar.edu/) project)   
 A collection of diagnostic and interpolation routines for use with output from the Weather Research and Forecasting (WRF-ARW) Model.
 
-**[climlab](https://climlab.readthedocs.io/en/latest/)** (Brian Rose)  
+**[climlab](https://climlab.readthedocs.io/)** (Brian Rose)  
 Process-oriented climate modeling.
 
-**[climt](https://climt.readthedocs.io/en/latest/)** (Joy Monteiro et al)  
+**[climt](https://climt.readthedocs.io/)** (Joy Monteiro et al)  
 Climate modelling and diagnostics toolkit.
 
 **[pyrcel](https://github.com/darothen/pyrcel)** (Daniel Rothenberg)  
@@ -165,6 +171,6 @@ Atmospheric large eddy simulation infrastructure designed to simulate boundary l
 **[aospy](https://aospy.readthedocs.io/en/stable/)** (Spencer Hill)  
 Automated climate data analysis and management.
 
-**[cmdline-provenance](https://cmdline-provenance.readthedocs.io/en/latest/)** (Damien Irving)  
+**[cmdline-provenance](https://cmdline-provenance.readthedocs.io/)** (Damien Irving)  
 For keeping track of your data processing steps.
  
