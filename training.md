@@ -63,6 +63,8 @@ check out the following
 * [Python Programming and Visualization for Scientists](https://sundogpublishingstore.myshopify.com/products/python-programming-and-visualization-for-scientists-2nd-ed) is a general introudction to Python for scientists,
 but some of the plotting and data examples have a meteorological slant
 because both the authors (Alex DeCaria and Grant Petty) are professors in meteorology.
+* [Project Pythia Foundations](https://foundations.projectpythia.org/)
+is a community learning resource for Python-based computing in the geosciences.
 * [Python for the Geosciences](https://github.com/kthyng/python4geosciences)
 is an open source semester-long class offered by the Oceanography Department at Texas A&M University.
 * [Earth and Environmental Data Science](https://earth-env-data-science.github.io)
@@ -75,10 +77,6 @@ including climate scientist Damien Irving.
 
 ## Additional resources
 
-Once you're comfortable with the basics,
-the following training resources might be of use:
-* [Pangeo use case gallery](https://pangeo.io/use_cases/index.html) for dealing with big data
-* [EarthML](https://earthml.holoviz.org/index.html) for machine learning and visualization in Python for Earth science
-
-
-
+The [Pythia Resource Gallery](https://projectpythia.org/gallery.html)
+provides links to additional workshops, tutorials, books and courses
+relevant to the wider geoscience discipline. 
