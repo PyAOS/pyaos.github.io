@@ -2,7 +2,7 @@ The Python for Atmosphere and Ocean Science (PyAOS) website and mailing list was
 
 # Summary
 
-Census respondents were overwhelmingly male (75%), young (74% are under 40) and based in the USA (57%).
+Census respondents were overwhelmingly male (75%), young (74% were under 40) and based in the USA (57%).
 They had typically been using Python for at least two years (82%) and were self-taught (mainly from Stack Overflow).
 Only 30% reported having attended a Python workshop of any kind and only 19% encountered Python during university.
 Almost all respondents primarily work with raster (i.e. gridded) data stored in netCDF format,
@@ -12,13 +12,13 @@ Two-thirds of people indicated that they do at least some of their analysis on a
 (e.g. hosted by their institution or a national facility) and one-third on the cloud (e.g. Amazon Web Services),
 but over half said a personal computer is still the platform they most commonly use for data science.
 Jupyter was the most popular development environment by a wide margin, with a quarter of respondents listing no other IDE or text editor.
-In terms of specific Python libraries, xarray dominates the PyAOS stack.
-It has a much larger user base than competing general purpose PyAOS libraries (iris and CDAT)
+In terms of specific Python libraries, xarray dominates the reported PyAOS stack.
+It had a much larger user base than competing general purpose PyAOS libraries (iris and CDAT)
 and most of the new libraries entering the stack build upon the xarray DataArray.
 So far there has been little take up of libraries that allow for interactive (as opposed to static)
 data exploration/visualisation (e.g. geoviews, hvplot),
 while the use of libraries that test code (e.g. unittest) or parse the command line (e.g. argparse) is rare.
-A clear inference from the survey is that most data processing workflows are coordinated exclusively from a Jupyter notebook.
+A clear inference from the survey is that for many respondents data processing workflows are coordinated exclusively from a Jupyter notebook.
 
 <p align="left">
 <img src="../images/census_main_stack.png" width="800">
@@ -33,9 +33,7 @@ TODO: Caption
 
 # Detailed results 
 
-### Demographics
-
-Age?
+### Age?
 
 | Age group | # |
 | :-- | :-- |
@@ -45,7 +43,7 @@ Age?
 | 50-59 | 10 |
 | 60-69 | 4 |
 
-Gender: How do you identify?
+### Gender: How do you identify?
 
 | Gender | # |
 | :-- | :-- |
@@ -53,7 +51,7 @@ Gender: How do you identify?
 | Woman | 35 |
 | Non-binary | 1 |
 
-Country of residence?
+### Country of residence?
 
 | Country | # |
 | :-- | :-- |
@@ -67,14 +65,12 @@ Country of residence?
 
 Plus one respondent from each of Austria, Canada, South Korea, Netherlands, Germany, New Zealand, Spain, Taiwan, Chile and Finland.
 
-Primary AOS discipline/s (select all that apply)
+### Primary AOS discipline/s (select all that apply)
 
 TODO
 
 
-### Python usage
-
-How long have you been using Python? 
+### How long have you been using Python? 
 
 | Time | # |
 | :-- | :-- |
@@ -84,7 +80,7 @@ How long have you been using Python?
 | 6-10 years | 42 |
 | More than 10 years | 21 |
 
-How have you learned Python?
+### How have you learned Python?
 
 | Method | % |
 | :-- | :-- |
@@ -93,9 +89,7 @@ How have you learned Python?
 | University semester course/s (e.g. "Introduction to Programming") | 19.014085 |
 | University degree (e.g. Bachelor of Software Engineering) | 5.633803 |
 
-### Data
-
-What types of AOS data do you work with (select all that apply)?
+### What types of AOS data do you work with (select all that apply)?
 
 | Data type | % |
 | :-- | :-- |
@@ -103,7 +97,7 @@ What types of AOS data do you work with (select all that apply)?
 | Tabular data | 61.428571 |
 | Vector data | 50.000000 |
 
-Which do you most commonly work with?
+### Which type of AOS data do you most commonly work with?
 
 | Data type | # |
 | :-- | :-- |
@@ -111,9 +105,7 @@ Which do you most commonly work with?
 | Tabular data | 21 |
 | Vector data | 6 |
 
-### File formats
-
-What file formats are your AOS data stored in?
+### What file formats are your AOS data stored in?
 
 | Format | | 
 | :-- | :-- |
@@ -129,7 +121,7 @@ What file formats are your AOS data stored in?
 
 There were also a small number of responses for GeoPackage (5), ICARTT (3), ESRI File Geodatabase (3), SQL (2), Plain text (ASCII) (2), NPY (1), JSON (1), Video (1), SQLite (1), MAT (1), Images (1), Relational Database (1), GeoParquet (1) and Audio (1).
 
-Which format do you most commonly work with?
+### Which format do you most commonly work with?
 
 | Format | |
 | :-- | :-- |
@@ -144,9 +136,7 @@ Which format do you most commonly work with?
 | A custom binary format | 1 |
 | JSON | 1 |
 
-### Platforms
-
-What computing platforms do you use for your AOS data science?
+### What computing platforms do you use for your AOS data science?
 
 | Computing platform | | 
 | :-- | :-- |
@@ -155,7 +145,7 @@ What computing platforms do you use for your AOS data science?
 | Cloud (e.g. Amazon Web Services) | 45 |
 | Local server (e.g. provided by your department) | 6 |
 
-Which platform do you most commonly work on for your AOS data science?
+### Which platform do you most commonly work on for your AOS data science?
 
 | Computing platform | |
 | :-- | :-- |
@@ -164,7 +154,7 @@ Which platform do you most commonly work on for your AOS data science?
 | Cloud | 8 |
 | Local server | 3 |
 
-What development environments do you regularly use for your Python coding?
+### What development environments do you regularly use for your Python coding?
 
 | Environment | |
 | :-- | :-- |
@@ -194,3 +184,4 @@ Writing Python code typically begins with importing various libraries that are e
 | pandas | 52.1 |
 | cartopy | 50.0
 | dask | 19.3 |
+
