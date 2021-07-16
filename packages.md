@@ -66,6 +66,9 @@ Utilities for downloading data from remote data services.
 **[regionmask](https://regionmask.readthedocs.io/)** (Mathias Hauser)  
 Masks for commonly used geographic regions (Giorgi, SREX, etc)
 
+**[ocetrac](https://ocetrac.readthedocs.io/)** (Hillary Scannell)  
+Label and track the evolution of unique geospatial features in gridded datasets.
+
 ## Visualisation
 
 **[Cartopy](https://scitools.org.uk/cartopy/docs/latest/)** ([SciTools](https://scitools.org.uk/) project)  
