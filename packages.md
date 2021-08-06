@@ -34,7 +34,7 @@ page_nav:
 As discussed in the [overview of the PyAOS stack](https://pyaos.github.io/stack/),
 most Python users in the atmosphere and ocean sciences
 base their data analysis around one of the following all-purpose packages:
-* [xarray](http://xarray.pydata.org/en/stable/) (supported by the PyData community)
+* [xarray](http://xarray.pydata.org/en/stable/) (supported by the [PyData](https://pydata.org/) community)
 * [iris](https://scitools.org.uk/iris/docs/latest/) (supported by the [SciTools](https://scitools.org.uk/) project)
 * [cdat](https://cdat.llnl.gov/) (supported by Lawrence Livermore National Laboratory)
 
@@ -117,6 +117,9 @@ Turbulence parameter estimation from fine scale oceanographic data.
 ## Climate
 
 **[ESMValTool](https://docs.esmvaltool.org/)**  
+Diagnostics and performance metrics for the evaluation of CMIP models.
+
+**[PCMDI Metrics Package (PMP)](http://pcmdi.github.io/pcmdi_metrics/index.html)**  
 Diagnostics and performance metrics for the evaluation of CMIP models.
 
 **[cmip6_preprocessing](https://cmip6-preprocessing.readthedocs.io/)** (Julius Busecke)  
