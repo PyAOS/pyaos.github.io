@@ -67,6 +67,7 @@ because both the authors (Alex DeCaria and Grant Petty) are professors in meteor
 is a community learning resource for Python-based computing in the geosciences.
 * [Python for the Geosciences](https://github.com/kthyng/python4geosciences)
 is an open source semester-long class offered by the Oceanography Department at Texas A&M University.
+* [Earth Observation Using Python: A Practical Programming Guide](https://agupubs.onlinelibrary.wiley.com/doi/book/10.1002/9781119606925) is a book from atmospheric scientist Rebekah Esmaili, focused on using Python to analyze environmental satellite data.
 * [Earth and Environmental Data Science](https://earth-env-data-science.github.io)
 is an open source book from oceanographers Ryan Abernathy and Kerry Key,
 which grew out of a semester-long class at Columbia University.
