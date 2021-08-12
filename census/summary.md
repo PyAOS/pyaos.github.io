@@ -23,12 +23,7 @@ A clear inference from the survey is that for many respondents data processing w
 <p align="left">
 <img src="../images/census_main_stack.png" width="800">
 </p>
-TODO: Caption
-
-<p align="left">
-<img src="../images/census_vis_stack.png" width="500">
-</p>
-TODO: Caption
+Figure 1: The PyAOS software stack, as reported by survey respondents.
 
 
 # Detailed results 
