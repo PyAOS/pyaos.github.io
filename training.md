@@ -46,7 +46,7 @@ has links to a bunch of useful lessons and resources.
 
 For those who understand the basics of Python but are new to using it in the PyAOS context,
 Data Carpentry offer a single-day workshop on 
-[Python for Atmosphere and Ocean Science](https://carpentrieslab.github.io/python-aos-lesson/),
+[Python for Atmosphere and Ocean Science](https://carpentries-lab.github.io/python-aos-lesson/),
 while Unidata also run a [Python Workshop](https://unidata.github.io/python-training/workshop/workshop-intro/).
 
 If there's not a Carpentries or Unidata workshop coming up soon in your area,
