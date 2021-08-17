@@ -114,7 +114,7 @@ Argo data access, visualisation and manipulation.
 **[mixsea](https://mixsea.readthedocs.io/)** (Jesse Cusack & Gunnar Voet)  
 Turbulence parameter estimation from fine scale oceanographic data.
 
-**[PyCO2SYS](https://PyCO2SYS.readthedocs.io/)** (Matthew Humphreys et al.)
+**[PyCO2SYS](https://PyCO2SYS.readthedocs.io/)** (Matthew Humphreys et al.)  
 Marine carbonate system solver.
 
 ## Climate
