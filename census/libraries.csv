@@ -1248,7 +1248,7 @@ participant,libraries
 135,datetime
 135,numpy
 135,scipy
-136,cdsm2
+136,cdms2
 136,cdutil
 136,MV2
 136,numpy
