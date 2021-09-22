@@ -21,7 +21,7 @@ while the use of libraries that test code (e.g. unittest) or parse the command l
 A clear inference from the survey is that for many respondents data processing workflows are coordinated exclusively from a Jupyter notebook.
 
 <p align="left">
-<img src="../images/census_main_stack.png" width="800">
+<img src="../images/census_main_stack.svg" width="800">
 </p>
 Figure 1: The PyAOS software stack, as reported by survey respondents.
 
