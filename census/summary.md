@@ -196,7 +196,6 @@ Answers: See below for all libraries listed by more than one respondent.
 | numpy | 120 | 86% |
 | matplotlib | 111 | 80% |
 | xarray | 97 | 69% |
-| pandas | 73 | 52% |
 | cartopy | 70 | 50% |
 | dask | 27 | 19% |
 | iris | 5 | 4% |
@@ -228,7 +227,7 @@ Answers: See below for all libraries listed by more than one respondent.
 | pygrib | 4 | 3% |
 | h5py | 4 | 3% |
 | rasterio | 2 | 1% |
-| fiona | 2 | 1% |
+| shapefile | 2 | 1% |
 
 #### AOS utilities
 
@@ -264,6 +263,8 @@ Answers: See below for all libraries listed by more than one respondent.
 
 | Library | Count | Percentage |
 | :-- | :-- | :-- |
+| seaborn | 16 | 11% |
+| pylab | 3 | 2% |
 | bokeh | 2 | 1% |
 | hvplot | 2 | 1% |
 | plotly | 2 | 1% |
@@ -276,10 +277,14 @@ Answers: See below for all libraries listed by more than one respondent.
 | pandas | 73 | 52% |
 | scipy | 53 | 38% |
 | sklearn | 10 | 7% |
+| geopandas | 10 | 7% |
 | intake | 8 | 6% |
 | statsmodels | 7 | 5% |
+| numba | 5 | 4% |
+| pyresample | 2 | 1% |
 | sparse | 2 | 1% |
 | skimage | 2 | 1% |
+| descartes | 2 | 1% |
 
 #### Standard library
 
@@ -300,6 +305,7 @@ Answers: See below for all libraries listed by more than one respondent.
 | shutil | 8 | 6% |
 | argparse | 8 | 6% |
 | collections | 7 | 5% |
+| subprocess | 7 | 5% |
 | urllib | 6 | 4% |
 | json | 6 | 4% |
 | gzip | 4 | 3% |
@@ -321,6 +327,7 @@ Answers: See below for all libraries listed by more than one respondent.
 | uuid | 2 | 1% |
 | socket | 2 | 1% |
 | ctypes | 2 | 1% |
+| tempfile | 2 | 1% |
 
 #### Miscellaneous
 
@@ -337,4 +344,7 @@ Answers: See below for all libraries listed by more than one respondent.
 | lxml | 2 | 1% |
 | mpi4py | 2 | 1% |
 | dash | 2 | 1% |
+| joblib | 2 | 1% |
+| rechunker | 2 | 1% |
+| yaml | 2 | 1% |
 
