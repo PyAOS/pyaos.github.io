@@ -20,7 +20,7 @@ page_nav:
 
 The Python for Atmosphere and Ocean Science (PyAOS) website and mailing list was established almost a decade ago to provide information and resources to the user community. In order to keep the site up-to-date, the first ever PyAOS census collected responses from May to July 2021. There were 144 participants in the survey, allowing for a detailed analysis of how Python is being used by those working and studying in the weather, ocean and climate sciences.
 
-# Summary
+## Summary
 
 Census respondents were overwhelmingly male (75%), young (74% were under 40) and based in the USA (60%).
 They had typically been using Python for at least two years (82%) and were self-taught (mainly from Stack Overflow).
@@ -41,12 +41,15 @@ while the use of libraries that test code (e.g. unittest) or parse the command l
 A clear inference from the survey is that for many respondents data processing workflows are coordinated exclusively from a Jupyter notebook.
 
 ![PyAOS Stack](../images/census_main_stack.svg "PyAOS Stack")  
-Figure 1: The PyAOS software stack, as reported by survey respondents.
+Figure 1: Summary of the PyAOS software stack, as reported by survey respondents. Only libraries reported by more than one respondent are shown and libraries used by more than 10 respondents are highlighted in bold.
 
 
-# Detailed results 
+## Detailed results 
 
-### Age?
+
+### Demographics
+
+**Age?**
 
 | Age group | Count | Percentage |
 | :-- | :-- | :-- |
@@ -56,7 +59,7 @@ Figure 1: The PyAOS software stack, as reported by survey respondents.
 | 50-59 | 10 | 7% |
 | 60-69 | 4 | 3% |
 
-### Gender: How do you identify?
+**Gender: How do you identify?**
 
 | Gender | Count | Percentage |
 | :-- | :-- | :-- |
@@ -64,7 +67,7 @@ Figure 1: The PyAOS software stack, as reported by survey respondents.
 | Woman | 35 | 25% |
 | Non-binary | 1 | 0% |
 
-### Country of residence?
+**Country of residence?**
 
 | Country | Count | Percentage |
 | :-- | :-- | :-- |
@@ -78,7 +81,7 @@ Figure 1: The PyAOS software stack, as reported by survey respondents.
 
 Plus one respondent from each of Austria, Canada, South Korea, Netherlands, Germany, New Zealand, Spain, Taiwan, Chile and Finland.
 
-### Primary AOS discipline/s (select all that apply)
+**Primary AOS discipline/s (select all that apply)**
 
 | Discipline | Count | Percentage (of total participants) |
 | :-- | :-- | :-- |
@@ -100,7 +103,9 @@ Plus one respondent from each of Austria, Canada, South Korea, Netherlands, Germ
 | Paleoclimatology | 2 | 1% |
 | Remote Sensing | 1 | 1% |
 
-### How long have you been using Python? 
+### Python usage
+
+**How long have you been using Python?**
 
 | Time | Count | Percentage |
 | :-- | :-- | :-- |
@@ -110,7 +115,7 @@ Plus one respondent from each of Austria, Canada, South Korea, Netherlands, Germ
 | 6-10 years | 42 | 29% |
 | More than 10 years | 21 | 15% |
 
-### How have you learned Python? (select all that apply)
+**How have you learned Python? (select all that apply)**
 
 | Method | Count | Percentage |
 | :-- | :-- | :-- |
@@ -119,7 +124,9 @@ Plus one respondent from each of Austria, Canada, South Korea, Netherlands, Germ
 | University semester course/s (e.g. "Introduction to Programming") | 27 | 19% |
 | University degree (e.g. Bachelor of Software Engineering) | 8 | 6% |
 
-### What types of AOS data do you work with (select all that apply)?
+### Data
+
+**What types of AOS data do you work with (select all that apply)?**
 
 | Data type | Count | Percentage |
 | :-- | :-- | :-- |
@@ -127,7 +134,7 @@ Plus one respondent from each of Austria, Canada, South Korea, Netherlands, Germ
 | Tabular data | 86 | 61% |
 | Vector data | 70 | 50% |
 
-### Which type of AOS data do you most commonly work with?
+**Which type of AOS data do you most commonly work with?**
 
 | Data type | Count | Percentage |
 | :-- | :-- | :-- |
@@ -135,7 +142,7 @@ Plus one respondent from each of Austria, Canada, South Korea, Netherlands, Germ
 | Tabular data | 21 | 15% |
 | Vector data | 6 | 4% |
 
-### What file formats are your AOS data stored in? (select all that apply)
+**What file formats are your AOS data stored in? (select all that apply)**
 
 | Format | Count | Percentage | 
 | :-- | :-- | :-- |
@@ -151,7 +158,7 @@ Plus one respondent from each of Austria, Canada, South Korea, Netherlands, Germ
 
 There were also a small number of responses for GeoPackage (5), ICARTT (3), ESRI File Geodatabase (3), SQL (2), Plain text (ASCII) (2), NPY (1), JSON (1), Video (1), SQLite (1), MAT (1), Images (1), Relational Database (1), GeoParquet (1) and Audio (1).
 
-### Which format do you most commonly work with?
+**Which format do you most commonly work with?**
 
 | Format | Count | Percentage |
 | :-- | :-- | :-- |
@@ -166,7 +173,9 @@ There were also a small number of responses for GeoPackage (5), ICARTT (3), ESRI
 | A custom binary format | 1 | 1% |
 | JSON | 1 | 1% |
 
-### What computing platforms do you use for your AOS data science? (select all that apply)
+### Computing
+
+**What computing platforms do you use for your AOS data science? (select all that apply)**
 
 | Computing platform | Count | Percentage | 
 | :-- | :-- | :-- |
@@ -175,7 +184,7 @@ There were also a small number of responses for GeoPackage (5), ICARTT (3), ESRI
 | Cloud (e.g. Amazon Web Services) | 45 | 32% |
 | Local server (e.g. provided by your department) | 6 | 4% |
 
-### Which platform do you most commonly work on for your AOS data science?
+**Which platform do you most commonly work on for your AOS data science?**
 
 | Computing platform | Count | Percentage |
 | :-- | :-- | :-- |
@@ -184,7 +193,7 @@ There were also a small number of responses for GeoPackage (5), ICARTT (3), ESRI
 | Cloud | 8 | 6% |
 | Local server | 3 | 2% |
 
-### What development environments do you regularly use for your Python coding? (select all that apply)
+**What development environments do you regularly use for your Python coding? (select all that apply)**
 
 | Environment | Count | Participant |
 | :-- | :-- | :-- |
@@ -201,13 +210,13 @@ There were also a small number of responses for GeoPackage (5), ICARTT (3), ESRI
 | gedit | 1 | 1% |
 | Google Colab | 1 | 1% |
 
-### Libraries
+### Python libraries
 
 Question: Writing Python code typically begins with importing various libraries that are either part of the Python standard library or that you've installed using the Python package installer (pip) or conda. Take a look back over five Python scripts / notebooks that you've written recently for AOS data science tasks and cut and paste below all the import statements that you used in those scripts / notebooks (please remove any duplicates).
 
 Answers: See below for all libraries listed by more than one respondent.
 
-#### Core libraries
+**Core libraries**
 
 | Library | Count | Percentage |
 | :-- | :-- | :-- |
@@ -221,33 +230,7 @@ Answers: See below for all libraries listed by more than one respondent.
 | cdms2 | 1 | 1% |
 | MV2  | 1 | 1% |
 
-#### Remote data access
-
-| Library | Count | Percentage |
-| :-- | :-- | :-- |
-| siphon | 8 | 6% |
-| pydap | 3 | 2% |
-| erddapy | 3 | 2% |
-
-#### Interfaces to (non-Python) geospatial libraries
-
-| Library | Count | Percentage |
-| :-- | :-- | :-- |
-| shapely | 11 | 8% |
-| pyproj | 2 | 1% |
-
-#### Interfaces to file formats
-
-| Library | Count | Percentage |
-| :-- | :-- | :-- |
-| netcdf4 | 35 | 25% |
-| zarr | 4 | 3% |
-| pygrib | 4 | 3% |
-| h5py | 4 | 3% |
-| rasterio | 2 | 1% |
-| shapefile | 2 | 1% |
-
-#### AOS utilities
+**AOS utilities**
 
 | Library | Count | Percentage |
 | :-- | :-- | :-- |
@@ -259,7 +242,7 @@ Answers: See below for all libraries listed by more than one respondent.
 | eofs | 3 | 2% |
 | windspharm | 2 | 1% |
 
-#### xarray extensions
+**xarray extensions**
 
 | Library | Count | Percentage |
 | :-- | :-- | :-- |
@@ -268,7 +251,33 @@ Answers: See below for all libraries listed by more than one respondent.
 | xrft  | 5 | 4% |
 | xhistogram | 2 | 1% |
 
-#### CF utilities
+**Remote data access**
+
+| Library | Count | Percentage |
+| :-- | :-- | :-- |
+| siphon | 8 | 6% |
+| pydap | 3 | 2% |
+| erddapy | 3 | 2% |
+
+**Interfaces to (non-Python) geospatial libraries**
+
+| Library | Count | Percentage |
+| :-- | :-- | :-- |
+| shapely | 11 | 8% |
+| pyproj | 2 | 1% |
+
+**Interfaces to file formats**
+
+| Library | Count | Percentage |
+| :-- | :-- | :-- |
+| netcdf4 | 35 | 25% |
+| zarr | 4 | 3% |
+| pygrib | 4 | 3% |
+| h5py | 4 | 3% |
+| rasterio | 2 | 1% |
+| shapefile | 2 | 1% |
+
+**CF utilities**
 
 | Library | Count | Percentage |
 | :-- | :-- | :-- |
@@ -277,7 +286,7 @@ Answers: See below for all libraries listed by more than one respondent.
 | nc_time_axis | 2 | 1% |
 | cfgrib | 2 | 1% |
 
-#### Plotting
+**Plotting**
 
 | Library | Count | Percentage |
 | :-- | :-- | :-- |
@@ -288,7 +297,7 @@ Answers: See below for all libraries listed by more than one respondent.
 | plotly | 2 | 1% |
 | proplot | 2 | 1% |
 
-#### General data science
+**General data science**
 
 | Library | Count | Percentage |
 | :-- | :-- | :-- |
@@ -304,7 +313,7 @@ Answers: See below for all libraries listed by more than one respondent.
 | skimage | 2 | 1% |
 | descartes | 2 | 1% |
 
-#### Standard library
+**Standard library**
 
 | Library | Count | Percentage |
 | :-- | :-- | :-- |
@@ -347,7 +356,7 @@ Answers: See below for all libraries listed by more than one respondent.
 | ctypes | 2 | 1% |
 | tempfile | 2 | 1% |
 
-#### Miscellaneous
+**Miscellaneous**
 
 | Library | Count | Percentage |
 | :-- | :-- | :-- |
