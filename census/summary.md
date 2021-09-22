@@ -66,10 +66,10 @@ Plus one respondent from each of Austria, Canada, South Korea, Netherlands, Germ
 | :-- | :-- | :-- |
 | Meteorology | 54 | 38% |
 | Modelling | 53 | 37% |
-| Physical Oceanography | 49 | 34% |
+| Physical Oceanography | 49 | 35% |
 | Atmospheric Dynamics | 48 | 33% |
 | Climate Change Processes | 29 | 20% |
-| Climatology (excl. Climate Change Processes) | 28 | 19% |
+| Climatology (excl. Climate Change Processes) | 28 | 20% |
 | AOS Research Software Engineer | 21 | 15% |
 | Cloud Physics | 18 | 13% |
 | AOS Research Computing Support | 14 | 10% |
@@ -77,8 +77,8 @@ Plus one respondent from each of Austria, Canada, South Korea, Netherlands, Germ
 | Biological Oceanography | 11 | 8% |
 | Chemical Oceanography | 9 | 6% |
 | Tropospheric and Stratospheric Physics | 8 | 6% |
-| Atmospheric Chemistry | 5 | 3% |
-| Atmospheric Aerosols | 5 | 3% |
+| Atmospheric Chemistry | 5 | 4% |
+| Atmospheric Aerosols | 5 | 4% |
 | Paleoclimatology | 2 | 1% |
 | Remote Sensing | 1 | 1% |
 
@@ -187,7 +187,7 @@ There were also a small number of responses for GeoPackage (5), ICARTT (3), ESRI
 
 Question: Writing Python code typically begins with importing various libraries that are either part of the Python standard library or that you've installed using the Python package installer (pip) or conda. Take a look back over five Python scripts / notebooks that you've written recently for AOS data science tasks and cut and paste below all the import statements that you used in those scripts / notebooks (please remove any duplicates).
 
-Answers: (See below for all libraries listed by more than one respondent)
+Answers: See below for all libraries listed by more than one respondent.
 
 #### Core libraries
 
