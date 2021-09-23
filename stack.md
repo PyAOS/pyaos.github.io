@@ -26,7 +26,7 @@ page_nav:
 </div>
 
 
-![PyAOS Stack](../images/pyaos_stack.svg "PyAOS Stack")
+![PyAOS Stack](../images/pyaos-stack.svg "PyAOS Stack")
 
 
 ## Core libraries
