@@ -73,7 +73,7 @@ Rather than referring to the individual elements of a data array using a numeric
 (as is required with NumPy),
 the actual row and column headings can be used.
 That means information from the cardiac ward for the year 2005
-could be obtained from a medical dataset by asking for `data.sel({'ward': ’cardiac’, 'year': 2005})`,
+could be obtained from a medical dataset by asking for `data.sel({'ward': 'cardiac', 'year': 2005})`,
 rather than having to remember the numeric index corresponding to that ward and year.
 This labelled array feature,
 combined with a bunch of other features that simplify common statistical and plotting tasks
