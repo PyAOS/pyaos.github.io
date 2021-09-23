@@ -46,7 +46,9 @@ Figure 1: Summary of the PyAOS software stack, as reported by survey respondents
 
 ## Detailed results 
 
-The data for all survey questions can be found at: https://doi.org/10.5281/zenodo.5523490
+The data for all survey questions can be found at:
+
+[https://doi.org/10.5281/zenodo.5523490](https://doi.org/10.5281/zenodo.5523490)
 
 
 ### Demographics
