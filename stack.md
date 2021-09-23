@@ -26,39 +26,30 @@ page_nav:
 </div>
 
 
-![PyAOS Stack](../images/pyaos-stack.svg "PyAOS Stack")
+![PyAOS Stack](../images/pyaos_stack.svg "PyAOS Stack")
+
 
 ## Core libraries
 
 The dashed box in the diagram above represents the core of the PyAOS stack,
 so let’s start our tour there.
 The default library for dealing with numerical arrays in Python is [NumPy](http://www.numpy.org/).
-It has a bunch of built in functions for reading and writing common data formats like .csv,
-but if your data is stored in netCDF format then the default library for getting data
-into/out of those files is [netCDF4](http://unidata.github.io/netcdf4-python/netCDF4/index.html).
-
-Once you’ve read your data in, you’re probably going to want to do some statistical analysis.
-The NumPy library has some built in functions for calculating very simple statistics
+It has some built in functions for calculating very simple statistics
 (e.g. maximum, mean, standard deviation),
 but for more complex analysis
 (e.g. interpolation, integration, linear algebra)
 the [SciPy](https://www.scipy.org/scipylib/index.html) library is the default.
-If you’re dealing with a particularly large dataset,
-you may get memory errors and/or slow performance
-when trying to read and process your data.
-[Dask](https://dask.org/) works with the existing Python ecosystem (i.e. NumPy, SciPy etc)
-to scale your analysis to multi-core machines and/or distributed clusters
-(i.e. parallel processing).
+If you’re dealing with particularly large arrays,
+[Dask](https://dask.org/) works with the existing Python ecosystem
+(i.e. NumPy, SciPy, etc) to scale your analysis
+to multi-core machines and/or distributed clusters (i.e. parallel processing).
 
-The NumPy library doesn’t come with any plotting capability,
-so if you want to visualise your NumPy data arrays then the default library is [matplotlib](https://matplotlib.org/).
+If you want to visualise your NumPy data arrays the default library is [matplotlib](https://matplotlib.org/).
 As you can see at the [matplotlib gallery](https://matplotlib.org/gallery.html),
 this library is great for any simple (e.g. bar charts, contour plots, line graphs),
 static (e.g. .png, .eps, .pdf) plots.
 The [cartopy](https://scitools.org.uk/cartopy/docs/latest/) library
-provides additional functionality for common map projections,
-while [Bokeh](http://bokeh.pydata.org/) allows for the creation of interactive plots
-where you can zoom and scroll.
+provides additional plotting functionality for common map projections.
 
 While pretty much all data analysis and visualisation tasks
 could be achieved with a combination of these core libraries,
@@ -69,6 +60,7 @@ the scientific Python community has therefore built a number of libraries on top
 These high-levels libraries aren’t as flexible
 – they can’t do *everything* like the core stack can –
 but they can do common tasks with far less effort.
+
 
 ## High-level libraries (generic)
 
@@ -81,7 +73,7 @@ Rather than referring to the individual elements of a data array using a numeric
 (as is required with NumPy),
 the actual row and column headings can be used.
 That means information from the cardiac ward for the year 2005
-could be obtained from a medical dataset by asking for `data(ward=’cardiac’, year=2005)`,
+could be obtained from a medical dataset by asking for `data.sel({'ward': ’cardiac’, 'year': 2005})`,
 rather than having to remember the numeric index corresponding to that ward and year.
 This labelled array feature,
 combined with a bunch of other features that simplify common statistical and plotting tasks
@@ -97,7 +89,8 @@ Not all of the pandas functionality is available
 but the ability to refer to array elements by their actual latitude (e.g. 20 South),
 longitude (e.g. 50 East), height (e.g. 500 hPa) and time (e.g. 2015-04-27), for example,
 makes the xarray data array far easier to deal with than the NumPy array.
-(As an added bonus, xarray also builds on netCDF4 to make netCDF input/output easier.)
+As an added bonus, xarray also has built in functionality for reading/writing specific AOS file formats
+(e.g netCDF, GRIB), which numpy and pandas don't have.
 
 ## High-level libraries (AOS-specific)
 
@@ -131,9 +124,9 @@ The VCDAT application also now runs as a JupyterLab extension, which is an excit
     some people like the slightly more AOS-centric experience offered by Iris,
     while others don’t like the restrictions that places on their work
     and prefer the generic xarray experience
-    (e.g. to use Iris your netCDF data files have to be
+    (e.g. to use Iris your input data files have to be
     <a href="http://cfconventions.org/">CF compliant</a> or close to it).
-    Either way, they are both a vast improvement on the netCDF/NumPy/matplotlib experience.
+    Either way, they are both a vast improvement on the NumPy/matplotlib experience.
     </p>
 </div>
 
@@ -153,11 +146,14 @@ and then the software figures out the optimal way to visualise it
 
 The two major Python libraries in the declarative visualisation space are
 [HoloViews](http://holoviews.org/) and [Altair](https://altair-viz.github.io/).
-The former (which has been around much longer) uses matplotlib or Bokeh under the hood,
+The former (which has been around much longer) uses matplotlib or
+[Bokeh](https://bokeh.org/) (interactive plots where you can zoom and scroll) under the hood,
 which means it allows for the generation of static or interactive plots.
 Since HoloViews doesn’t have support for geographic plots,
-[GeoViews](http://geoviews.org/) has been created on top of it
-(which incorporates cartopy and can handle Iris or xarray data arrays).
+[GeoViews](http://geoviews.org/) and [hvPlot](https://hvplot.holoviz.org/)
+have been created on top of it and offer geographic plotting functionality 
+by leveraging many elements of the PyAOS stack 
+(i.e. cartopy, xarray, dask, etc).
 
 ## Sub-discipline-specific libraries
 
@@ -201,7 +197,9 @@ is true for [MetPy](https://unidata.github.io/MetPy/latest/index.html).
 </div>
 
 Check out the [Package Index](https://pyaos.github.io/packages/) for a listing of all the
-sub-discipline-specific libraries in your particular area of AOS research.
+sub-discipline-specific libraries in your particular area of AOS research
+and the results of the [2021 PyAOS Census](https://pyaos.github.io/census/)
+for more information on the wide range of Python libraries used by the AOS community.
 
 ## Summary
 
@@ -214,8 +212,9 @@ You will occasionally find yourself needing to use a core library directly
 function to customise a label on that plot),
 but to avoid re-inventing the wheel your first impulse should always be
 to check whether a high-level library has the functionality you need.
-Nothing would be more heartbreaking than spending hours writing your own function using netCDF4
-for extracting the metadata contained within a netCDF file, for instance,
-only to find that Iris automatically keeps this information upon reading a file.
+Nothing would be more heartbreaking than spending hours writing your own function
+using the netCDF4 library for extracting the metadata contained within a netCDF file,
+for instance,
+only to find that xarray and Iris automatically keep this information upon reading a netCDF file.
 In this way, a solid working knowledge of the PyAOS stack
 can save you a lot of time and effort.
