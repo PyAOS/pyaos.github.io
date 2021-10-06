@@ -38,10 +38,21 @@ base their data analysis around one of the following all-purpose packages:
 * [iris](https://scitools.org.uk/iris/docs/latest/) (supported by the [SciTools](https://scitools.org.uk/) project)
 * [cdat](https://cdat.llnl.gov/) (supported by Lawrence Livermore National Laboratory)
 
-There are then a myriad of packages available for specific AOS analysis tasks,
+There are then a myriad of packages available for general geospatial and specific AOS analysis tasks,
 many of which extend the functionality of the all-purpose PyAOS packages
 and/or the more generic data science packages such as [NumPy](http://www.numpy.org/)
 and [matplotlib](https://matplotlib.org/). 
+
+The package listing below captures Python packages that are unique to the atmosphere and ocean sciences.
+The focus is on packages that are under active development and/or maintenance and
+that have a non-trivial user-base (i.e. more users than just the author/s).
+Check out the [awesome-spatial](https://github.com/RoboDonut/awesome-spatial#readme),
+[awesome-open-geoscience](https://github.com/softwareunderground/awesome-open-geoscience#readme)
+and [awesome-earth-artificial-intelligence](https://github.com/ESIPFed/Awesome-Earth-Artificial-Intelligence/blob/master/README.md)
+lists for more general (i.e. not unique to AOS) packages that might be of use.
+There is some overlap between the scope of the list below and both the
+[awesome-coastal](https://github.com/chrisleaman/awesome-coastal#readme) and 
+[awesome-open-climate-science](https://github.com/pangeo-data/awesome-open-climate-science#readme) lists.
 
 ## General utilities
 
