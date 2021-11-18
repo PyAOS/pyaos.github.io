@@ -186,6 +186,9 @@ Adiabatic cloud parcel model for studying aerosol activation.
 **[PyCLES](https://github.com/pressel/pycles)**  (Kyle Pressel and Colleen Kaul)  
 Atmospheric large eddy simulation infrastructure designed to simulate boundary layer clouds and deep convection.
 
+**[xgcm](https://xgcm.readthedocs.io/)**  
+General circulation model post-processing with xarray.
+
 ## Workflow management
 
 **[aospy](https://aospy.readthedocs.io/en/stable/)** (Spencer Hill)  
