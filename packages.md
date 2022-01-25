@@ -91,6 +91,10 @@ Interactive exploration and visualisation of geographical, meteorological, and o
 **[cmocean](https://matplotlib.org/cmocean/)** (Kristen Thyng)  
 Beautiful colormaps for oceanography.
 
+**[GeoCAT-viz](https://geocat-viz.readthedocs.io/en/latest/)** ([GeoCAT](https://geocat.ucar.edu/) project)  
+Visualization routines from the NCAR Command Language (NCL).
+Examples at [GeoCAT-examples](https://geocat-examples.readthedocs.io/en/latest/).
+
 ## Meteorology
 
 **[MetPy](https://www.unidata.ucar.edu/software/metpy/)** ([UniData](https://www.unidata.ucar.edu/))  
