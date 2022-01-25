@@ -53,7 +53,7 @@ lists for more general (i.e. not unique to AOS) packages that might be of use.
 There is some overlap between the scope of the list below and both the
 [awesome-coastal](https://github.com/chrisleaman/awesome-coastal#readme) and 
 [awesome-open-climate-science](https://github.com/pangeo-data/awesome-open-climate-science#readme) lists.
-
+U
 ## General utilities
 
 **[GeoCAT-comp](https://geocat-comp.readthedocs.io/en/latest/)** ([GeoCAT](https://geocat.ucar.edu/) project)  
@@ -156,7 +156,7 @@ It focuses on the time domain with custom functions for Xarray and Dask data.
 **[climate-indices](https://climate-indices.readthedocs.io/)** (James Adams)  
 Various climate index algorithms relating to precipitation and temperature.
 
-## Regridding
+## Spatial grids
 
 **[xESMF](https://xesmf.readthedocs.io/)** (Jiawei Zhuang)  
 Universal regridder for geospatial data.
@@ -172,6 +172,12 @@ Interface to the Earth System Modeling Framework (ESMF) regridding utility.
 
 **[pyproj](https://pyproj4.github.io/pyproj/stable/)**  
 Interface to PROJ (cartographic projections and coordinate transformations library).
+
+**[GCM-Filters](https://gcm-filters.readthedocs.io/)** ([Ocean Transport and Eddy Energy Climate Process Team](https://ocean-eddy-cpt.github.io/))  
+Diffusion-based spatial filtering of gridded data.
+
+**[Uxarray](https://uxarray.readthedocs.io/)** ([Project Raijin](https://raijin.ucar.edu/))  
+Reading and recognizing unstructured grid models.
 
 ## Modeling
 
