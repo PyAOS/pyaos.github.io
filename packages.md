@@ -33,10 +33,12 @@ page_nav:
 
 As discussed in the [overview of the PyAOS stack](https://pyaos.github.io/stack/),
 most Python users in the atmosphere and ocean sciences
-base their data analysis around one of the following all-purpose packages:
+base their data analysis around one of the following all-purpose packages
+(listed in order of popularity/usage):
 * [xarray](http://xarray.pydata.org/en/stable/) (supported by the [PyData](https://pydata.org/) community)
 * [iris](https://scitools.org.uk/iris/docs/latest/) (supported by the [SciTools](https://scitools.org.uk/) project)
 * [cdat](https://cdat.llnl.gov/) (supported by Lawrence Livermore National Laboratory)
+* [PyGeode](https://pygeode.github.io/)
 
 There are then a myriad of packages available for general geospatial and specific AOS analysis tasks,
 many of which extend the functionality of the all-purpose PyAOS packages
@@ -71,14 +73,19 @@ Computations on global wind fields in spherical geometry.
 **[cf-xarray](https://cf-xarray.readthedocs.io/)** (Deepak Cherian)  
 Lightweight accessor for xarray objects that interprets CF attributes.
 
-**[Siphon](https://www.unidata.ucar.edu/software/siphon/)** ([UniData](https://www.unidata.ucar.edu/))  
-Utilities for downloading data from remote data services.
-
 **[regionmask](https://regionmask.readthedocs.io/)** (Mathias Hauser)  
 Masks for commonly used geographic regions (Giorgi, SREX, etc)
 
 **[ocetrac](https://ocetrac.readthedocs.io/)** (Hillary Scannell)  
 Label and track the evolution of unique geospatial features in gridded datasets.
+
+## Data access
+
+**[Siphon](https://www.unidata.ucar.edu/software/siphon/)** ([UniData](https://www.unidata.ucar.edu/))  
+Utilities for downloading data from remote data services.
+
+**[CliMetLab](https://climetlab.readthedocs.io/)** ([ECMWF](https://www.ecmwf.int/))  
+Simplified access to climate and meteorological datasets.
 
 ## Visualisation
 
@@ -117,6 +124,9 @@ Utilities for working with disdrometer data.
 
 **[pyPI](https://github.com/dgilford/pyPI)** (Daniel Gilford)  
 Tropical cyclone potential intensity calculations.
+
+**[xcape](https://xcape.readthedocs.io/en/latest/)**  
+Fast convective parameters for numpy, dask, and xarray.
 
 ## Oceanography
 
