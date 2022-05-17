@@ -216,7 +216,7 @@ General circulation model post-processing with xarray.
 **[cf-checker](https://github.com/cedadev/cf-checker)** ([CEDA](https://www.ceda.ac.uk/))  
 Check compliance of netCDF files against the CF Convention.
 
-**[compliance-checker]** ([IOOS](https://ioos.noaa.gov/))  
+**[compliance-checker](https://github.com/ioos/compliance-checker)** ([IOOS](https://ioos.noaa.gov/))  
 Check compliance of netCDF files against CF, ACDD, and IOOS Metadata Profile file standards.
 
 **[cfdm](https://ncas-cms.github.io/cfdm/)** ([NCAS-CMS](https://cms.ncas.ac.uk/))  
