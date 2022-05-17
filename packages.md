@@ -38,6 +38,7 @@ base their data analysis around one of the following all-purpose packages
 * [xarray](http://xarray.pydata.org/en/stable/) (supported by the [PyData](https://pydata.org/) community)
 * [iris](https://scitools.org.uk/iris/docs/latest/) (supported by the [SciTools](https://scitools.org.uk/) project)
 * [cdat](https://cdat.llnl.gov/) (supported by Lawrence Livermore National Laboratory)
+* [cf-python](https://ncas-cms.github.io/cf-python/) (supported by the [NCAS-CMS](https://cms.ncas.ac.uk/))
 * [PyGeode](https://pygeode.github.io/)
 
 There are then a myriad of packages available for general geospatial and specific AOS analysis tasks,
@@ -55,7 +56,7 @@ lists for more general (i.e. not unique to AOS) packages that might be of use.
 There is some overlap between the scope of the list below and both the
 [awesome-coastal](https://github.com/chrisleaman/awesome-coastal#readme) and 
 [awesome-open-climate-science](https://github.com/pangeo-data/awesome-open-climate-science#readme) lists.
-U
+
 ## General utilities
 
 **[GeoCAT-comp](https://geocat-comp.readthedocs.io/en/latest/)** ([GeoCAT](https://geocat.ucar.edu/) project)  
@@ -69,9 +70,6 @@ EOF analysis of spatial-temporal data.
 
 **[windspharm](https://ajdawson.github.io/windspharm/latest/)** (Andrew Dawson)  
 Computations on global wind fields in spherical geometry.
-
-**[cf-xarray](https://cf-xarray.readthedocs.io/)** (Deepak Cherian)  
-Lightweight accessor for xarray objects that interprets CF attributes.
 
 **[regionmask](https://regionmask.readthedocs.io/)** (Mathias Hauser)  
 Masks for commonly used geographic regions (Giorgi, SREX, etc)
@@ -102,6 +100,9 @@ Beautiful colormaps for oceanography.
 Visualization routines from the NCAR Command Language (NCL).
 Examples at [GeoCAT-examples](https://geocat-examples.readthedocs.io/en/latest/).
 
+**[cf-plot](http://ajheaps.github.io/cf-plot/)**  
+cf-python related functions for common contour, vector and line plots used in climate research.
+
 ## Meteorology
 
 **[MetPy](https://www.unidata.ucar.edu/software/metpy/)** ([UniData](https://www.unidata.ucar.edu/))  
@@ -131,7 +132,8 @@ Fast convective parameters for numpy, dask, and xarray.
 ## Oceanography
 
 **[GSW-Python](https://teos-10.github.io/GSW-Python/)**  
-Python implementation of the Thermodynamic Equation of Seawater 2010 (TEOS-10).
+Python implementation of the Thermodynamic Equation of Seawater 2010 (TEOS-10).  
+See [gsw-xarray](https://gsw-xarray.readthedocs.io/) for a wrapper that adds CF attributes to xarray outputs.
 
 **[argopy](https://github.com/euroargodev/argopy)** (Guillaume Maze)  
 Argo data access, visualisation and manipulation.
@@ -208,6 +210,20 @@ Atmospheric large eddy simulation infrastructure designed to simulate boundary l
 
 **[xgcm](https://xgcm.readthedocs.io/)**  
 General circulation model post-processing with xarray.
+
+## Climate and Forecast (CF) metadata conventions
+
+**[cf-checker](https://github.com/cedadev/cf-checker)** ([CEDA](https://www.ceda.ac.uk/))  
+Check compliance of netCDF files against the CF Convention.
+
+**[compliance-checker]** ([IOOS](https://ioos.noaa.gov/))  
+Check compliance of netCDF files against CF, ACDD, and IOOS Metadata Profile file standards.
+
+**[cfdm](https://ncas-cms.github.io/cfdm/)** ([NCAS-CMS](https://cms.ncas.ac.uk/))  
+Implements the data model of the CF metadata conventions.
+
+**[cf-xarray](https://cf-xarray.readthedocs.io/)** (Deepak Cherian)  
+Lightweight accessor for xarray objects that interprets CF attributes.
 
 ## Workflow management
 
