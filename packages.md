@@ -158,6 +158,9 @@ Tools for cleaning/standardization of the metadata associated with CMIP6 data fi
 **[xclim](https://xclim.readthedocs.io/)** ([Ouranos](https://ouranos.ca/))  
 Functions to compute climate indices from observations or model simulations.
 
+**[icclim](https://icclim.readthedocs.io/)** ([CERFACS GLOBC](https://cerfacs.fr/en/climate-modelling-and-global-change-globc/))  
+Index Calculation for CLIMate.
+
 **[climpred](https://climpred.readthedocs.io/)** (Riley Brady and Aaron Spring)  
 Verification of weather and climate forecasts.
 
