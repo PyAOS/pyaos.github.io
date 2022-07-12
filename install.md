@@ -70,13 +70,13 @@ that weren't pre-installed.
 
 ## Anaconda
 
-The most widely used scientific Python distribution (by far) is [Anaconda](https://www.anaconda.com/distribution/).
+The most widely used scientific Python distribution (by far) is [Anaconda](https://www.anaconda.com/products/distribution).
 According to the [latest documentation](https://docs.anaconda.com/anaconda/#anaconda-navigator-or-conda),
 Anaconda comes with over 250 of the most widely used data science libraries (and their dependencies) pre-installed.
 In addition, thousands more of the most popular data science libraries can be added/installed
-using their [conda](https://docs.conda.io/en/latest/) package manager.
+using their [conda](https://docs.conda.io/) package manager.
 Data Carpentry have a great
-[PyAOS conda tutorial](https://carpentrieslab.github.io/python-aos-lesson/01-conda/index.html)
+[PyAOS conda tutorial](https://carpentries-lab.github.io/python-aos-lesson/01-conda/index.html)
 to get you started.
 
 #### Anaconda Cloud
@@ -100,9 +100,3 @@ using a conda installation package that they've uploaded to Anaconda Cloud.
     has additional information and resources for getting the PyAOS stack up and running. 
     </p>
 </div>
-
-
-
- 
-
- 
