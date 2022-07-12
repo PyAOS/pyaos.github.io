@@ -72,9 +72,9 @@ The key advance offered by pandas is the concept of labelled arrays.
 Rather than referring to the individual elements of a data array using a numeric index
 (as is required with NumPy),
 the actual row and column headings can be used.
-That means information from the cardiac ward for the year 2005
-could be obtained from a medical dataset by asking for `data.sel({'ward': 'cardiac', 'year': 2005})`,
-rather than having to remember the numeric index corresponding to that ward and year.
+That means information from the cardiac ward on 3 July 2005
+could be obtained from a medical dataset by asking for `data['cardiac'].loc['2005-07-03']`,
+rather than having to remember the numeric index corresponding to that ward and date.
 This labelled array feature,
 combined with a bunch of other features that simplify common statistical and plotting tasks
 traditionally performed with SciPy and matplotlib,
@@ -179,23 +179,6 @@ have released their Python ARM Radar Toolkit ([Py-ART](http://arm-doe.github.io/
 for analysing weather radar data,
 and a [similar story](https://www.unidata.ucar.edu/blogs/news/entry/metpy_an_open_source_python)
 is true for [MetPy](https://unidata.github.io/MetPy/latest/index.html).
-
-<div class="callout callout--info">
-    <p><strong>Coming soon</strong></p>
-    <p>In terms of new libraries that might be available soon,
-    the <a href="https://pangeo.io/">Pangeo</a>
-    project is actively supporting and encouraging
-    the development of more domain-specific geoscience packages. 
-    It was also recently
-    <a href="https://www.ncl.ucar.edu/Document/Pivot_to_Python/">announced</a>
-    that NCAR will adopt Python as their scripting language of choice,
-    so expect to see many of your favourite <a href="https://www.ncl.ucar.edu/">NCL</a>
-    functions re-implemented as part of the new
-    <a href="https://geocat-comp.readthedocs.io/en/latest/">GeoCAT-comp</a>
-    Python library over the coming months/years.
-    </p>
-</div>
-
 Check out the [Package Index](https://pyaos.github.io/packages/) for a listing of all the
 sub-discipline-specific libraries in your particular area of AOS research
 and the results of the [2021 PyAOS Census](https://pyaos.github.io/census/)
