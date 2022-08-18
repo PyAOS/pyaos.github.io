@@ -7,8 +7,8 @@ keywords:
 title: Python for Atmosphere and Ocean Science
 description: Information and resources for the PyAOS community.
 buttons:
-    - content: Mailing List
-      url: 'http://lists.johnny-lin.com/listinfo.cgi/pyaos-johnny-lin.com'
+    - content: Join the PyAOS discussion @ Scientific Python Discourse
+      url: 'https://discuss.scientific-python.org/c/contributor/pyaos/28'
       external_url: true
     - icon: github
       content: Contribute on GitHub
