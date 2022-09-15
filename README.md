@@ -36,8 +36,10 @@ so it is important to define the scope of the website.
 In general, **the PyAOS website provides information on Python packages and training resources that are unique
 to the atmosphere and ocean sciences and of interest to physical data scientists.**
 The focus is on packages and resources that are under active development and/or maintenance,
-have a non-trivial user-base (i.e. more users than just the author/s) and
-are for a general audience.
+have a non-trivial user-base (i.e. more users than just the author/s),
+offer somewhat unique functionality
+(i.e. rather than simply coordinating the execution of functionality from other packages)
+and are for a general audience.
 
 Following that definition, here are some examples of things that would be out of scope:
 * Unidata's [cftime](https://unidata.github.io/cftime/) package:
@@ -58,6 +60,10 @@ In other words, this package isn't for a general audience.
 * The [GeoPandas](https://geopandas.org/) package: While this is a great package for working with geospatial vector data,
 it is of interest to the much broader field of geospatial data science.
 In other words, it isn't unique (or even predominantly used by or supported by) the PyAOS community.
+* The [PCMDI Metrics Package](http://pcmdi.github.io/pcmdi_metrics/index.html) or [ESMValTool](https://docs.esmvaltool.org/en/latest/).
+Model evaluation/diagnostics packages like these tend to coordinate the execution of many existing packages
+(e.g. that calculate climate indices) rather than offering unique funcionality.
+
 
 If you're unsure whether a particular Python package or training resource is within scope,
 feel free to [open an issue](https://github.com/PyAOS/pyaos.github.io/issues)
