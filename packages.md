@@ -149,12 +149,6 @@ Marine carbonate system solver.
 
 ## Climate
 
-**[ESMValTool](https://docs.esmvaltool.org/)**  
-Diagnostics and performance metrics for the evaluation of CMIP models.
-
-**[PCMDI Metrics Package (PMP)](http://pcmdi.github.io/pcmdi_metrics/index.html)**  
-Diagnostics and performance metrics for the evaluation of CMIP models.
-
 **[cmip6_preprocessing](https://cmip6-preprocessing.readthedocs.io/)** (Julius Busecke)  
 Tools for cleaning/standardization of the metadata associated with CMIP6 data files.
 
