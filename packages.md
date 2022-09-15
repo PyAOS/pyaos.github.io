@@ -37,7 +37,6 @@ base their data analysis around one of the following all-purpose packages
 (listed in order of popularity/usage):
 * [xarray](http://xarray.pydata.org/en/stable/) (supported by the [PyData](https://pydata.org/) community)
 * [iris](https://scitools.org.uk/iris/docs/latest/) (supported by the [SciTools](https://scitools.org.uk/) project)
-* [cdat](https://cdat.llnl.gov/) (supported by Lawrence Livermore National Laboratory)
 * [cf-python](https://ncas-cms.github.io/cf-python/) (supported by the [NCAS-CMS](https://cms.ncas.ac.uk/))
 * [PyGeode](https://pygeode.github.io/)
 
@@ -47,17 +46,21 @@ and/or the more generic data science packages such as [NumPy](http://www.numpy.o
 and [matplotlib](https://matplotlib.org/). 
 
 The package listing below captures Python packages that are unique to the atmosphere and ocean sciences.
-The focus is on packages that are under active development and/or maintenance and
-that have a non-trivial user-base (i.e. more users than just the author/s).
+The focus is on packages that are under active development and/or maintenance,
+have a non-trivial user-base (i.e. more users than just the author/s) and offer unique functionality.
 Check out the [awesome-spatial](https://github.com/RoboDonut/awesome-spatial#readme),
 [awesome-open-geoscience](https://github.com/softwareunderground/awesome-open-geoscience#readme)
 and [awesome-earth-artificial-intelligence](https://github.com/ESIPFed/Awesome-Earth-Artificial-Intelligence/blob/master/README.md)
-lists for more general (i.e. not unique to AOS) packages that might be of use.
+lists for more general (i.e. not specific to AOS) packages that might be of use.
 There is some overlap between the scope of the list below and both the
 [awesome-coastal](https://github.com/chrisleaman/awesome-coastal#readme) and 
 [awesome-open-climate-science](https://github.com/pangeo-data/awesome-open-climate-science#readme) lists.
 
 ## General utilities
+
+**[xCDAT](https://xcdat.readthedocs.io/en/latest/)** (Lawrence Livermore National Laboratory)  
+An extension of xarray for climate data analysis on structured grids.
+Serves as a spiritual successor to the Community Data Analysis Tools (CDAT) library.
 
 **[GeoCAT-comp](https://geocat-comp.readthedocs.io/en/latest/)** ([GeoCAT](https://geocat.ucar.edu/) project)  
 Computational routines from the NCAR Command Language (NCL).
