@@ -104,19 +104,11 @@ they explicitly assume that users of their [Iris](https://scitools.org.uk/iris/d
 library are dealing with weather/ocean/climate data.
 Doing this allows them to make common weather/climate tasks super quick and easy,
 and it also means they have added functionality specific to atmosphere and ocean science.
-(The SciTools project is also behind cartopy
-and a number of other useful libraries for analysing earth science data.)
-
-In addition to Iris, you may also come across [CDAT](https://cdat.llnl.gov),
-which is maintained by the team at Lawrence Livermore National Laboratory.
-It was the precursor to xarray and Iris in the sense that it was the first package
-for atmosphere and ocean scientists built on top of the core Python stack.
-For a number of years the funding and direction of that project shifted towards
-developing a graphical interface ([VCDAT](https://vcdat.llnl.gov))
-for managing large workflows and visualising data
-(i.e. as opposed to further developing the capabilities of the underlying Python libraries),
-but it seems that CDAT is now once again under [active development](https://github.com/CDAT/cdat/wiki).
-The VCDAT application also now runs as a JupyterLab extension, which is an exciting development.
+In addition to Iris,
+you may also come across other weather/climate/ocean-oriented high level libraries
+such as [cf-python](https://ncas-cms.github.io/cf-python/) or [PyGeode](https://pygeode.github.io/).
+Those libraries may have particular functionality that makes them useful for your work,
+but in general they have a much smaller developer and user base than xarray and Iris.
 
 <div class="callout callout--info">
     <p><strong>How to choose</strong></p>
