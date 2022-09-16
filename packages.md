@@ -132,6 +132,9 @@ Tropical cyclone potential intensity calculations.
 **[xcape](https://xcape.readthedocs.io/en/latest/)**  
 Fast convective parameters for numpy, dask, and xarray.
 
+**[thermofeel](https://thermofeel.readthedocs.io/)** (ECMWF)  
+A library to calculate human thermal comfort indexes.
+
 ## Oceanography
 
 **[GSW-Python](https://teos-10.github.io/GSW-Python/)**  
