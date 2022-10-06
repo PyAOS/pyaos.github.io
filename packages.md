@@ -135,6 +135,9 @@ See [gsw-xarray](https://gsw-xarray.readthedocs.io/) for a wrapper that adds CF 
 **[argopy](https://github.com/euroargodev/argopy)** (Guillaume Maze)  
 Argo data access, visualisation and manipulation.
 
+**[OceanParcels](https://oceanparcels.org/)**  
+Customisable particle tracking simulations using output from Ocean Circulation models.
+
 **[ocetrac](https://ocetrac.readthedocs.io/)** (Hillary Scannell)  
 Label and track the evolution of unique geospatial features in gridded datasets.
 
