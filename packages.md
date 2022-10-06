@@ -68,18 +68,6 @@ Computational routines from the NCAR Command Language (NCL).
 **[PyFerret](https://ferret.pmel.noaa.gov/Ferret/documentation/pyferret)** (PMEL)  
 Quick exploration of oceanographic data.
 
-**[eofs](https://ajdawson.github.io/eofs/latest/)** (Andrew Dawson)  
-EOF analysis of spatial-temporal data.
-
-**[windspharm](https://ajdawson.github.io/windspharm/latest/)** (Andrew Dawson)  
-Computations on global wind fields in spherical geometry.
-
-**[regionmask](https://regionmask.readthedocs.io/)** (Mathias Hauser)  
-Masks for commonly used geographic regions (Giorgi, SREX, etc)
-
-**[ocetrac](https://ocetrac.readthedocs.io/)** (Hillary Scannell)  
-Label and track the evolution of unique geospatial features in gridded datasets.
-
 ## Data access
 
 **[Siphon](https://www.unidata.ucar.edu/software/siphon/)** ([UniData](https://www.unidata.ucar.edu/))  
@@ -117,6 +105,9 @@ Reading, manipulating, and writing data from remote-sensing earth-observing mete
 **[Py-ART](https://arm-doe.github.io/pyart/)** ([ARM User Facility](https://www.arm.gov/data/work-with-arm-data))  
 Weather radar algorithms and utilities.
 
+**[windspharm](https://ajdawson.github.io/windspharm/latest/)** (Andrew Dawson)  
+Computations on global wind fields in spherical geometry.
+
 **[PyDDA](https://openradarscience.org/PyDDA/)**  
 Direct data assimilation framework for wind retrievals.
 
@@ -144,6 +135,9 @@ See [gsw-xarray](https://gsw-xarray.readthedocs.io/) for a wrapper that adds CF 
 **[argopy](https://github.com/euroargodev/argopy)** (Guillaume Maze)  
 Argo data access, visualisation and manipulation.
 
+**[ocetrac](https://ocetrac.readthedocs.io/)** (Hillary Scannell)  
+Label and track the evolution of unique geospatial features in gridded datasets.
+
 **[mixsea](https://mixsea.readthedocs.io/)** (Jesse Cusack & Gunnar Voet)  
 Turbulence parameter estimation from fine scale oceanographic data.
 
@@ -164,12 +158,24 @@ Index Calculation for CLIMate.
 **[climpred](https://climpred.readthedocs.io/)** (Riley Brady and Aaron Spring)  
 Verification of weather and climate forecasts.
 
+**[climate-indices](https://climate-indices.readthedocs.io/)** (James Adams)  
+Various climate index algorithms relating to precipitation and temperature.
+
+## Data reduction (temporal or spatial)
+
+**[regionmask](https://regionmask.readthedocs.io/)** (Mathias Hauser)  
+Masking of of geographic regions.
+
+**[clisops](https://clisops.readthedocs.io)** ([ROOCS](https://roocs.github.io/))  
+Climate simulation operations (temporal and spatial subsetting and averaging of xarray data sets).
+Related to [daops](https://daops.readthedocs.io).
+
 **[climtas](https://climtas.readthedocs.io/)** (Scott Wales)  
 Climtas is a package for working with large climate analyses.
 It focuses on the time domain with custom functions for Xarray and Dask data.
 
-**[climate-indices](https://climate-indices.readthedocs.io/)** (James Adams)  
-Various climate index algorithms relating to precipitation and temperature.
+**[eofs](https://ajdawson.github.io/eofs/latest/)** (Andrew Dawson)  
+EOF analysis of spatial-temporal data.
 
 ## Spatial grids
 
