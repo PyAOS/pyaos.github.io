@@ -141,6 +141,9 @@ Customisable particle tracking simulations using output from Ocean Circulation m
 **[ocetrac](https://ocetrac.readthedocs.io/)** (Hillary Scannell)  
 Label and track the evolution of unique geospatial features in gridded datasets.
 
+**[CloudDrift](https://cloud-drift.github.io/clouddrift/)** (University of Miami)  
+A platform for accelerating research with Lagrangian climate data.
+
 **[mixsea](https://mixsea.readthedocs.io/)** (Jesse Cusack & Gunnar Voet)  
 Turbulence parameter estimation from fine scale oceanographic data.
 
