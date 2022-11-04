@@ -211,6 +211,9 @@ Reading and recognizing unstructured grid models.
 **[wrf-python](https://wrf-python.readthedocs.io/)** ([GeoCAT](https://geocat.ucar.edu/) project)   
 A collection of diagnostic and interpolation routines for use with output from the Weather Research and Forecasting (WRF-ARW) Model.
 
+**[xWRF](https://xwrf.readthedocs.io/)**  
+Interface for working with the Weather Research and Forecasting (WRF) model output in Xarray.
+
 **[climlab](https://climlab.readthedocs.io/)** (Brian Rose)  
 Process-oriented climate modeling.
 
