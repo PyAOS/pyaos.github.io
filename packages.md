@@ -229,6 +229,9 @@ Atmospheric large eddy simulation infrastructure designed to simulate boundary l
 **[xgcm](https://xgcm.readthedocs.io/)**  
 General circulation model post-processing with xarray.
 
+**[xskillscore](https://xskillscore.readthedocs.io/)**  
+Metrics for verifying model forecasts.
+
 ## Climate and Forecast (CF) metadata conventions
 
 **[cf-checker](https://github.com/cedadev/cf-checker)** ([CEDA](https://www.ceda.ac.uk/))  
