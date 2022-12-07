@@ -150,6 +150,9 @@ Turbulence parameter estimation from fine scale oceanographic data.
 **[PyCO2SYS](https://PyCO2SYS.readthedocs.io/)** (Matthew Humphreys et al.)  
 Marine carbonate system solver.
 
+**[neutralocean](https://neutralocean.readthedocs.io/)** (Geoff Stanley)  
+Calculate oceanic neutral surfaces and related things.
+
 ## Climate
 
 **[cmip6_preprocessing](https://cmip6-preprocessing.readthedocs.io/)** (Julius Busecke)  
