@@ -78,6 +78,6 @@ including climate scientist Damien Irving.
 
 ## Additional resources
 
-The [Pythia Resource Gallery](https://projectpythia.org/gallery.html)
+The [Pythia Resource Gallery](https://projectpythia.org/resource-gallery.html)
 provides links to additional workshops, tutorials, books and courses
 relevant to the wider geoscience discipline. 
