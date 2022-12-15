@@ -84,10 +84,13 @@ Geographic map projections for plotting.
 **[geoviews](http://geoviews.org/)** ([HoloViz](https://holoviz.org/) project)  
 Interactive exploration and visualisation of geographical, meteorological, and oceanographic datasets.
 
+**[xmovie](https://xmovie.readthedocs.io/)** (Julius Busecke)  
+Movies from xarray objects.
+
 **[cmocean](https://matplotlib.org/cmocean/)** (Kristen Thyng)  
 Beautiful colormaps for oceanography. See [xcmocean](https://xcmocean.readthedocs.io/) for xarray integration.
 
-**[GeoCAT-viz](https://geocat-viz.readthedocs.io/en/latest/)** ([GeoCAT](https://geocat.ucar.edu/) project)  
+**[GeoCAT-viz](https://geocat-viz.readthedocs.io/)** ([GeoCAT](https://geocat.ucar.edu/) project)  
 Visualization routines from the NCAR Command Language (NCL).
 Examples at [GeoCAT-examples](https://geocat-examples.readthedocs.io/en/latest/).
 
@@ -120,7 +123,7 @@ Utilities for working with disdrometer data.
 **[pyPI](https://github.com/dgilford/pyPI)** (Daniel Gilford)  
 Tropical cyclone potential intensity calculations.
 
-**[xcape](https://xcape.readthedocs.io/en/latest/)**  
+**[xcape](https://xcape.readthedocs.io/)**  
 Fast convective parameters for numpy, dask, and xarray.
 
 **[thermofeel](https://thermofeel.readthedocs.io/)** (ECMWF)  
