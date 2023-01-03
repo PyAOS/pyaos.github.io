@@ -129,6 +129,9 @@ Fast convective parameters for numpy, dask, and xarray.
 **[thermofeel](https://thermofeel.readthedocs.io/)** (ECMWF)  
 A library to calculate human thermal comfort indexes.
 
+**[tobac](https://tobac.readthedocs.io/)**  
+Tracking and object-based analysis of clouds.
+
 ## Oceanography
 
 **[GSW-Python](https://teos-10.github.io/GSW-Python/)**  
