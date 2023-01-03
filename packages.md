@@ -58,34 +58,31 @@ There is some overlap between the scope of the list below and both the
 
 ## General utilities
 
-**[xCDAT](https://xcdat.readthedocs.io/en/latest/)** (Lawrence Livermore National Laboratory)  
-An extension of xarray for climate data analysis on structured grids.
-Serves as a spiritual successor to the Community Data Analysis Tools (CDAT) library.
-
 **[GeoCAT-comp](https://geocat-comp.readthedocs.io/en/latest/)** ([GeoCAT](https://geocat.ucar.edu/) project)  
 Computational routines from the NCAR Command Language (NCL).
 
 **[PyFerret](https://ferret.pmel.noaa.gov/Ferret/documentation/pyferret)** (PMEL)  
 Quick exploration of oceanographic data.
 
-## Data access
+**[xCDAT](https://xcdat.readthedocs.io/en/latest/)** (Lawrence Livermore National Laboratory)  
+An extension of xarray for climate data analysis on structured grids.
+Serves as a spiritual successor to the Community Data Analysis Tools (CDAT) library.
 
-**[Siphon](https://www.unidata.ucar.edu/software/siphon/)** ([UniData](https://www.unidata.ucar.edu/))  
-Utilities for downloading data from remote data services.
+## Data access
 
 **[CliMetLab](https://climetlab.readthedocs.io/)** ([ECMWF](https://www.ecmwf.int/))  
 Simplified access to climate and meteorological datasets.
+
+**[Siphon](https://www.unidata.ucar.edu/software/siphon/)** ([UniData](https://www.unidata.ucar.edu/))  
+Utilities for downloading data from remote data services.
 
 ## Visualisation
 
 **[Cartopy](https://scitools.org.uk/cartopy/docs/latest/)** ([SciTools](https://scitools.org.uk/) project)  
 Geographic map projections for plotting.
 
-**[geoviews](http://geoviews.org/)** ([HoloViz](https://holoviz.org/) project)  
-Interactive exploration and visualisation of geographical, meteorological, and oceanographic datasets.
-
-**[xmovie](https://xmovie.readthedocs.io/)** (Julius Busecke)  
-Movies from xarray objects.
+**[cf-plot](http://ajheaps.github.io/cf-plot/)**  
+cf-python related functions for common contour, vector and line plots used in climate research.
 
 **[cmocean](https://matplotlib.org/cmocean/)** (Kristen Thyng)  
 Beautiful colormaps for oceanography. See [xcmocean](https://xcmocean.readthedocs.io/) for xarray integration.
@@ -94,28 +91,25 @@ Beautiful colormaps for oceanography. See [xcmocean](https://xcmocean.readthedoc
 Visualization routines from the NCAR Command Language (NCL).
 Examples at [GeoCAT-examples](https://geocat-examples.readthedocs.io/en/latest/).
 
-**[cf-plot](http://ajheaps.github.io/cf-plot/)**  
-cf-python related functions for common contour, vector and line plots used in climate research.
+**[geoviews](http://geoviews.org/)** ([HoloViz](https://holoviz.org/) project)  
+Interactive exploration and visualisation of geographical, meteorological, and oceanographic datasets.
+
+**[xmovie](https://xmovie.readthedocs.io/)** (Julius Busecke)  
+Movies from xarray objects.
 
 ## Meteorology
+
+**[ACT](https://arm-doe.github.io/ACT/)** ([ARM User Facility](https://www.arm.gov/data/work-with-arm-data))  
+Toolkit for working with atmospheric time-series datasets of varying dimensions.
 
 **[MetPy](https://www.unidata.ucar.edu/software/metpy/)** ([UniData](https://www.unidata.ucar.edu/))  
 Tools for reading, visualising and performing calculations with weather data.
 
-**[Satpy](https://satpy.readthedocs.io/)** ([PyTroll community](http://pytroll.github.io/))  
-Reading, manipulating, and writing data from remote-sensing earth-observing meteorological satellite instruments.
-
 **[Py-ART](https://arm-doe.github.io/pyart/)** ([ARM User Facility](https://www.arm.gov/data/work-with-arm-data))  
 Weather radar algorithms and utilities.
 
-**[windspharm](https://ajdawson.github.io/windspharm/latest/)** (Andrew Dawson)  
-Computations on global wind fields in spherical geometry.
-
 **[PyDDA](https://openradarscience.org/PyDDA/)**  
 Direct data assimilation framework for wind retrievals.
-
-**[ACT](https://arm-doe.github.io/ACT/)** ([ARM User Facility](https://www.arm.gov/data/work-with-arm-data))  
-Toolkit for working with atmospheric time-series datasets of varying dimensions.
 
 **[PyDSD](http://josephhardinee.github.io/PyDSD/)** (Joseph Hardin and Nick Guy)  
 Utilities for working with disdrometer data.
@@ -123,8 +117,8 @@ Utilities for working with disdrometer data.
 **[pyPI](https://github.com/dgilford/pyPI)** (Daniel Gilford)  
 Tropical cyclone potential intensity calculations.
 
-**[xcape](https://xcape.readthedocs.io/)**  
-Fast convective parameters for numpy, dask, and xarray.
+**[Satpy](https://satpy.readthedocs.io/)** ([PyTroll community](http://pytroll.github.io/))  
+Reading, manipulating, and writing data from remote-sensing earth-observing meteorological satellite instruments.
 
 **[thermofeel](https://thermofeel.readthedocs.io/)** (ECMWF)  
 A library to calculate human thermal comfort indexes.
@@ -132,14 +126,29 @@ A library to calculate human thermal comfort indexes.
 **[tobac](https://tobac.readthedocs.io/)**  
 Tracking and object-based analysis of clouds.
 
+**[windspharm](https://ajdawson.github.io/windspharm/latest/)** (Andrew Dawson)  
+Computations on global wind fields in spherical geometry.
+
+**[xcape](https://xcape.readthedocs.io/)**  
+Fast convective parameters for numpy, dask, and xarray.
+
 ## Oceanography
+
+**[argopy](https://github.com/euroargodev/argopy)** (Guillaume Maze)  
+Argo data access, visualisation and manipulation.
+
+**[CloudDrift](https://cloud-drift.github.io/clouddrift/)** (University of Miami)  
+A platform for accelerating research with Lagrangian climate data.
 
 **[GSW-Python](https://teos-10.github.io/GSW-Python/)**  
 Python implementation of the Thermodynamic Equation of Seawater 2010 (TEOS-10).  
 See [gsw-xarray](https://gsw-xarray.readthedocs.io/) for a wrapper that adds CF attributes to xarray outputs.
 
-**[argopy](https://github.com/euroargodev/argopy)** (Guillaume Maze)  
-Argo data access, visualisation and manipulation.
+**[mixsea](https://mixsea.readthedocs.io/)** (Jesse Cusack & Gunnar Voet)  
+Turbulence parameter estimation from fine scale oceanographic data.
+
+**[neutralocean](https://neutralocean.readthedocs.io/)** (Geoff Stanley)  
+Calculate oceanic neutral surfaces and related things.
 
 **[OceanParcels](https://oceanparcels.org/)**  
 Customisable particle tracking simulations using output from Ocean Circulation models.
@@ -147,81 +156,66 @@ Customisable particle tracking simulations using output from Ocean Circulation m
 **[ocetrac](https://ocetrac.readthedocs.io/)** (Hillary Scannell)  
 Label and track the evolution of unique geospatial features in gridded datasets.
 
-**[CloudDrift](https://cloud-drift.github.io/clouddrift/)** (University of Miami)  
-A platform for accelerating research with Lagrangian climate data.
-
-**[mixsea](https://mixsea.readthedocs.io/)** (Jesse Cusack & Gunnar Voet)  
-Turbulence parameter estimation from fine scale oceanographic data.
-
 **[PyCO2SYS](https://PyCO2SYS.readthedocs.io/)** (Matthew Humphreys et al.)  
 Marine carbonate system solver.
 
-**[neutralocean](https://neutralocean.readthedocs.io/)** (Geoff Stanley)  
-Calculate oceanic neutral surfaces and related things.
-
 ## Climate
-
-**[cmip6_preprocessing](https://cmip6-preprocessing.readthedocs.io/)** (Julius Busecke)  
-Tools for cleaning/standardization of the metadata associated with CMIP6 data files.
-
-**[xclim](https://xclim.readthedocs.io/)** ([Ouranos](https://ouranos.ca/))  
-Functions to compute climate indices from observations or model simulations.
-
-**[icclim](https://icclim.readthedocs.io/)** ([CERFACS GLOBC](https://cerfacs.fr/en/climate-modelling-and-global-change-globc/))  
-Index Calculation for CLIMate.
-
-**[climpred](https://climpred.readthedocs.io/)** (Riley Brady and Aaron Spring)  
-Verification of weather and climate forecasts.
 
 **[climate-indices](https://climate-indices.readthedocs.io/)** (James Adams)  
 Various climate index algorithms relating to precipitation and temperature.
 
+**[climpred](https://climpred.readthedocs.io/)** (Riley Brady and Aaron Spring)  
+Verification of weather and climate forecasts.
+
+**[cmip6_preprocessing](https://cmip6-preprocessing.readthedocs.io/)** (Julius Busecke)  
+Tools for cleaning/standardization of the metadata associated with CMIP6 data files.
+
+**[icclim](https://icclim.readthedocs.io/)** ([CERFACS GLOBC](https://cerfacs.fr/en/climate-modelling-and-global-change-globc/))  
+Index Calculation for CLIMate.
+
+**[xclim](https://xclim.readthedocs.io/)** ([Ouranos](https://ouranos.ca/))  
+Functions to compute climate indices from observations or model simulations.
+
 ## Data reduction (temporal or spatial)
 
-**[regionmask](https://regionmask.readthedocs.io/)** (Mathias Hauser)  
-Masking of of geographic regions.
+**[climtas](https://climtas.readthedocs.io/)** (Scott Wales)  
+Climtas is a package for working with large climate analyses.
+Focuses on the time domain with custom functions for Xarray and Dask data.
 
 **[clisops](https://clisops.readthedocs.io)** ([ROOCS](https://roocs.github.io/))  
 Climate simulation operations (temporal and spatial subsetting and averaging of xarray data sets).
 Related to [daops](https://daops.readthedocs.io).
 
-**[climtas](https://climtas.readthedocs.io/)** (Scott Wales)  
-Climtas is a package for working with large climate analyses.
-It focuses on the time domain with custom functions for Xarray and Dask data.
-
 **[eofs](https://ajdawson.github.io/eofs/latest/)** (Andrew Dawson)  
 EOF analysis of spatial-temporal data.
 
+**[regionmask](https://regionmask.readthedocs.io/)** (Mathias Hauser)  
+Masking of of geographic regions.
+
 ## Spatial grids
-
-**[xESMF](https://xesmf.readthedocs.io/)** (Jiawei Zhuang)  
-Universal regridder for geospatial data.
-
-**[gridded](https://noaa-orr-erd.github.io/gridded/)** (NOAA-ORR-ERD)  
-A single way to work with results from any hydrodynamic/oceanographic model regardless of what type of grid it was computed on.
-
-**[pyResample](https://pyresample.readthedocs.io/)** ([PyTroll community](http://pytroll.github.io/))  
-Resampling geospatial image data.
 
 **[ESMPy](https://earthsystemcog.org/projects/esmpy/)**  
 Interface to the Earth System Modeling Framework (ESMF) regridding utility.
 
+**[GCM-Filters](https://gcm-filters.readthedocs.io/)** ([Ocean Transport and Eddy Energy Climate Process Team](https://ocean-eddy-cpt.github.io/))  
+Diffusion-based spatial filtering of gridded data.
+
+**[gridded](https://noaa-orr-erd.github.io/gridded/)** (NOAA-ORR-ERD)  
+A single way to work with results from any hydrodynamic/oceanographic model regardless of what type of grid it was computed on.
+
 **[pyproj](https://pyproj4.github.io/pyproj/stable/)**  
 Interface to PROJ (cartographic projections and coordinate transformations library).
 
-**[GCM-Filters](https://gcm-filters.readthedocs.io/)** ([Ocean Transport and Eddy Energy Climate Process Team](https://ocean-eddy-cpt.github.io/))  
-Diffusion-based spatial filtering of gridded data.
+**[pyResample](https://pyresample.readthedocs.io/)** ([PyTroll community](http://pytroll.github.io/))  
+Resampling geospatial image data.
 
 **[Uxarray](https://uxarray.readthedocs.io/)** ([Project Raijin](https://raijin.ucar.edu/))  
 Reading and recognizing unstructured grid models.
 
+**[xESMF](https://xesmf.readthedocs.io/)** (Jiawei Zhuang)  
+Universal regridder for geospatial data.
+
 ## Modeling
-
-**[wrf-python](https://wrf-python.readthedocs.io/)** ([GeoCAT](https://geocat.ucar.edu/) project)   
-A collection of diagnostic and interpolation routines for use with output from the Weather Research and Forecasting (WRF-ARW) Model.
-
-**[xWRF](https://xwrf.readthedocs.io/)**  
-Interface for working with the Weather Research and Forecasting (WRF) model output in Xarray.
 
 **[climlab](https://climlab.readthedocs.io/)** (Brian Rose)  
 Process-oriented climate modeling.
@@ -229,11 +223,14 @@ Process-oriented climate modeling.
 **[climt](https://climt.readthedocs.io/)** (Joy Monteiro et al)  
 Climate modelling and diagnostics toolkit.
 
+**[PyCLES](https://github.com/pressel/pycles)**  (Kyle Pressel and Colleen Kaul)  
+Atmospheric large eddy simulation infrastructure designed to simulate boundary layer clouds and deep convection.
+
 **[pyrcel](https://github.com/darothen/pyrcel)** (Daniel Rothenberg)  
 Adiabatic cloud parcel model for studying aerosol activation.
 
-**[PyCLES](https://github.com/pressel/pycles)**  (Kyle Pressel and Colleen Kaul)  
-Atmospheric large eddy simulation infrastructure designed to simulate boundary layer clouds and deep convection.
+**[wrf-python](https://wrf-python.readthedocs.io/)** ([GeoCAT](https://geocat.ucar.edu/) project)   
+A collection of diagnostic and interpolation routines for use with output from the Weather Research and Forecasting (WRF-ARW) Model.
 
 **[xgcm](https://xgcm.readthedocs.io/)**  
 General circulation model post-processing with xarray.
@@ -241,19 +238,22 @@ General circulation model post-processing with xarray.
 **[xskillscore](https://xskillscore.readthedocs.io/)**  
 Metrics for verifying model forecasts.
 
+**[xWRF](https://xwrf.readthedocs.io/)**  
+Interface for working with the Weather Research and Forecasting (WRF) model output in Xarray.
+
 ## Climate and Forecast (CF) metadata conventions
 
 **[cf-checker](https://github.com/cedadev/cf-checker)** ([CEDA](https://www.ceda.ac.uk/))  
 Check compliance of netCDF files against the CF Convention.
-
-**[compliance-checker](https://github.com/ioos/compliance-checker)** ([IOOS](https://ioos.noaa.gov/))  
-Check compliance of netCDF files against CF, ACDD, and IOOS Metadata Profile file standards.
 
 **[cfdm](https://ncas-cms.github.io/cfdm/)** ([NCAS-CMS](https://cms.ncas.ac.uk/))  
 Implements the data model of the CF metadata conventions.
 
 **[cf-xarray](https://cf-xarray.readthedocs.io/)** (Deepak Cherian)  
 Lightweight accessor for xarray objects that interprets CF attributes.
+
+**[compliance-checker](https://github.com/ioos/compliance-checker)** ([IOOS](https://ioos.noaa.gov/))  
+Check compliance of netCDF files against CF, ACDD, and IOOS Metadata Profile file standards.
 
 ## Workflow management
 
