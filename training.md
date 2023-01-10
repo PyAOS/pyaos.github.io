@@ -60,6 +60,7 @@ for any of the workshops listed above.
 If you're looking for something longer than a single-day workshop,
 check out the following
 (listed in approximate order from beginner to more advanced):  
+* [An Introduction to Python Programming for Scientists and Engineers](https://www.cambridge.org/highereducation/books/an-introduction-to-python-programming-for-scientists-and-engineers/271C02A02E8B775066316E92A68E187A#overview) is an introduction to Python for scientists and engineers who are complete beginner programmers. The lead author (Johnny Lin) founded the PyAOS community and AMS Python Symposium.
 * [Python Programming and Visualization for Scientists](https://sundogpublishingstore.myshopify.com/products/python-programming-and-visualization-for-scientists-2nd-ed) is a general introudction to Python for scientists,
 but some of the plotting and data examples have a meteorological slant
 because both the authors (Alex DeCaria and Grant Petty) are professors in meteorology.
