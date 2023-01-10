@@ -31,7 +31,7 @@ page_nav:
 </div>
 
 The are so many resources out there for learning Python that it can be difficult to know where to start.
-This page is a curated list of resources that have been developed specifically with a PyAOS audience in mind.
+This page is a curated list of resources that are recommended for a PyAOS audience.
 
 ## Books
 
