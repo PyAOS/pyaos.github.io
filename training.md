@@ -30,9 +30,29 @@ page_nav:
     </p>
 </div>
 
-## Starting out
+The are so many resources out there for learning Python that it can be difficult to know where to start.
+This page is a curated list of resources that have been developed specifically with a PyAOS audience in mind.
 
-#### Workshops and short courses
+## Books
+
+(Listed in approximate order from beginner to more advanced.)
+
+* [An Introduction to Python Programming for Scientists and Engineers](https://doi.org/10.1017/9781108571531) is an introduction to Python for scientists and engineers who are complete beginner programmers. The lead author (Johnny Lin) founded the PyAOS community and AMS Python Symposium.
+* [Python Programming and Visualization for Scientists](https://sundogpublishingstore.myshopify.com/products/python-programming-and-visualization-for-scientists-2nd-ed) is a general introudction to Python for scientists,
+but some of the plotting and data examples have a meteorological slant
+because both the authors (Alex DeCaria and Grant Petty) are professors in meteorology.
+* [Project Pythia Foundations](https://foundations.projectpythia.org/)
+is a community learning resource for Python-based computing in the geosciences.
+* [Earth Observation Using Python: A Practical Programming Guide](https://doi.org/10.1002/9781119606925) is a book from atmospheric scientist Rebekah Esmaili, focused on using Python to analyze environmental satellite data.
+* [Earth and Environmental Data Science](https://earth-env-data-science.github.io)
+is an open source book from oceanographers Ryan Abernathy and Kerry Key,
+which grew out of a semester-long class at Columbia University.
+* [Research Software Engineering with Python](https://merely-useful.github.io/py-rse/)
+is an open source book from a group of Carpentries instructors,
+including climate scientist Damien Irving.
+
+
+## Workshops and short courses
 
 If you're new to using Python for atmosphere and ocean science,
 [The Carpentries](https://carpentries.org/) and/or
@@ -53,28 +73,6 @@ If there's not a Carpentries or Unidata workshop coming up soon in your area,
 you can [request a Carpentries workshop](https://carpentries.org/workshops/).
 Alternatively, you can work though the lesson materials online
 for any of the workshops listed above.
-
-
-#### Books and university courses
-
-If you're looking for something longer than a single-day workshop,
-check out the following
-(listed in approximate order from beginner to more advanced):  
-* [An Introduction to Python Programming for Scientists and Engineers](https://www.cambridge.org/highereducation/books/an-introduction-to-python-programming-for-scientists-and-engineers/271C02A02E8B775066316E92A68E187A#overview) is an introduction to Python for scientists and engineers who are complete beginner programmers. The lead author (Johnny Lin) founded the PyAOS community and AMS Python Symposium.
-* [Python Programming and Visualization for Scientists](https://sundogpublishingstore.myshopify.com/products/python-programming-and-visualization-for-scientists-2nd-ed) is a general introudction to Python for scientists,
-but some of the plotting and data examples have a meteorological slant
-because both the authors (Alex DeCaria and Grant Petty) are professors in meteorology.
-* [Project Pythia Foundations](https://foundations.projectpythia.org/)
-is a community learning resource for Python-based computing in the geosciences.
-* [Python for the Geosciences](https://github.com/kthyng/python4geosciences)
-is an open source semester-long class offered by the Oceanography Department at Texas A&M University.
-* [Earth Observation Using Python: A Practical Programming Guide](https://agupubs.onlinelibrary.wiley.com/doi/book/10.1002/9781119606925) is a book from atmospheric scientist Rebekah Esmaili, focused on using Python to analyze environmental satellite data.
-* [Earth and Environmental Data Science](https://earth-env-data-science.github.io)
-is an open source book from oceanographers Ryan Abernathy and Kerry Key,
-which grew out of a semester-long class at Columbia University.
-* [Research Software Engineering with Python](https://merely-useful.github.io/py-rse/)
-is an open source book from a group of Carpentries instructors,
-including climate scientist Damien Irving.
 
 
 ## Additional resources
