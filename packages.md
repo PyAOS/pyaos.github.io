@@ -167,14 +167,14 @@ Various climate index algorithms relating to precipitation and temperature.
 **[climpred](https://climpred.readthedocs.io/)** (Riley Brady and Aaron Spring)  
 Verification of weather and climate forecasts.
 
-**[cmip6_preprocessing](https://cmip6-preprocessing.readthedocs.io/)** (Julius Busecke)  
-Tools for cleaning/standardization of the metadata associated with CMIP6 data files.
-
 **[icclim](https://icclim.readthedocs.io/)** ([CERFACS GLOBC](https://cerfacs.fr/en/climate-modelling-and-global-change-globc/))  
 Index Calculation for CLIMate.
 
 **[xclim](https://xclim.readthedocs.io/)** ([Ouranos](https://ouranos.ca/))  
 Functions to compute climate indices from observations or model simulations.
+
+**[xmip](https://cmip6-preprocessing.readthedocs.io/)** (Julius Busecke)  
+Tools for cleaning/standardization of the metadata associated with CMIP6 data files.
 
 ## Data reduction (temporal or spatial)
 
