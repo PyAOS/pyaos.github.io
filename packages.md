@@ -134,7 +134,7 @@ Fast convective parameters for numpy, dask, and xarray.
 
 ## Oceanography
 
-**[argopy](https://github.com/euroargodev/argopy)** (Guillaume Maze)  
+**[argopy](https://argopy.readthedocs.io/)** (Guillaume Maze)  
 Argo data access, visualisation and manipulation.
 
 **[CloudDrift](https://cloud-drift.github.io/clouddrift/)** (University of Miami)  
