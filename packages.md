@@ -140,6 +140,9 @@ Argo data access, visualisation and manipulation.
 **[CloudDrift](https://cloud-drift.github.io/clouddrift/)** (University of Miami)  
 A platform for accelerating research with Lagrangian climate data.
 
+**[glidertools](https://glidertools.readthedocs.io/en/latest/)**  
+Toolbox for processing underwater glider data.
+
 **[GSW-Python](https://teos-10.github.io/GSW-Python/)**  
 Python implementation of the Thermodynamic Equation of Seawater 2010 (TEOS-10).  
 See [gsw-xarray](https://gsw-xarray.readthedocs.io/) for a wrapper that adds CF attributes to xarray outputs.
