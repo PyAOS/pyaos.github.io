@@ -31,7 +31,7 @@ page_nav:
 
 ## Core libraries
 
-The dashed box in the diagram above represents the core of the PyAOS stack,
+The thick solid box in the diagram above represents the core of the PyAOS stack,
 so let’s start our tour there.
 The default library for dealing with numerical arrays in Python is [NumPy](http://www.numpy.org/).
 It has some built in functions for calculating very simple statistics
@@ -164,15 +164,20 @@ are formally packaging and releasing their code for use within their community.
 For instance, Andrew Dawson (an atmospheric scientist at Oxford)
 does a lot of EOF analysis and manipulation of wind data,
 so he has released his [eofs](https://ajdawson.github.io/eofs/latest/)
-and [windspharm](https://ajdawson.github.io/windspharm/latest/) libraries
-(which are able to handle data arrays from NumPy, Iris or xarray).
+and [windspharm](https://ajdawson.github.io/windspharm/latest/) libraries.
 Similarly, a group at the Atmospheric Radiation Measurement (ARM) Climate Research Facility
 have released their Python ARM Radar Toolkit ([Py-ART](http://arm-doe.github.io/pyart/))
 for analysing weather radar data,
 and a [similar story](https://www.unidata.ucar.edu/blogs/news/entry/metpy_an_open_source_python)
 is true for [MetPy](https://unidata.github.io/MetPy/latest/index.html).
-Check out the [Package Index](https://pyaos.github.io/packages/) for a listing of all the
-sub-discipline-specific libraries in your particular area of AOS research
+
+The diagram above shows some of the more widely used sub-discipline-specific libraries
+for meteorology, oceanography, climate, statistics, working with gridded data, etc.
+Many are built on top of xarray and/or iris
+(i.e. the core data construct is an xarray DataArray or Iris cube),
+as indicated by the dashed circles.
+Check out the [Package Index](https://pyaos.github.io/packages/) for a more complete listing
+of the sub-discipline-specific libraries in your particular area of AOS research
 and the results of the [2021 PyAOS Census](https://pyaos.github.io/census/)
 for more information on the wide range of Python libraries used by the AOS community.
 
