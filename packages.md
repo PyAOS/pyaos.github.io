@@ -70,6 +70,9 @@ Serves as a spiritual successor to the Community Data Analysis Tools (CDAT) libr
 
 ## Data access
 
+**[acccmip6](https://acccmip6.readthedocs.io/)** (Taufiq Hassan Mozumder)  
+Access and search the CMIP6 database in real time. 
+
 **[CliMetLab](https://climetlab.readthedocs.io/)** ([ECMWF](https://www.ecmwf.int/))  
 Simplified access to climate and meteorological datasets.
 
