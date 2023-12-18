@@ -192,6 +192,9 @@ Focuses on the time domain with custom functions for Xarray and Dask data.
 Climate simulation operations (temporal and spatial subsetting and averaging of xarray data sets).
 Related to [daops](https://daops.readthedocs.io).
 
+**[xeofs](https://xeofs.readthedocs.io)** (Niclas Rieger)  
+EOF analysis in Python with xarray.
+
 **[eofs](https://ajdawson.github.io/eofs/latest/)** (Andrew Dawson)  
 EOF analysis of spatial-temporal data.
 
