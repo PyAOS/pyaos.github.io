@@ -135,6 +135,9 @@ Computations on global wind fields in spherical geometry.
 **[xcape](https://xcape.readthedocs.io/)**  
 Fast convective parameters for numpy, dask, and xarray.
 
+**[pyet](https://pyet.readthedocs.io)** (Matevz Vremec & Raoul Collenteur)  
+Estimation of potential evapotranspiration.
+
 ## Oceanography
 
 **[argopy](https://argopy.readthedocs.io/)** (Guillaume Maze)  
