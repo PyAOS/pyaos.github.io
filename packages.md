@@ -52,9 +52,10 @@ Check out the [awesome-spatial](https://github.com/RoboDonut/awesome-spatial#rea
 [awesome-open-geoscience](https://github.com/softwareunderground/awesome-open-geoscience#readme)
 and [awesome-earth-artificial-intelligence](https://github.com/ESIPFed/Awesome-Earth-Artificial-Intelligence/blob/master/README.md)
 lists for more general (i.e. not specific to AOS) packages that might be of use.
-There is some overlap between the scope of the list below and both the
-[awesome-coastal](https://github.com/chrisleaman/awesome-coastal#readme) and 
-[awesome-open-climate-science](https://github.com/pangeo-data/awesome-open-climate-science#readme) lists.
+There is some overlap between the scope of the list below and the
+[awesome-coastal](https://github.com/chrisleaman/awesome-coastal#readme), 
+[awesome-open-climate-science](https://github.com/pangeo-data/awesome-open-climate-science#readme) and 
+[xarray related projects](https://docs.xarray.dev/en/latest/ecosystem.html) lists.
 
 ## General utilities
 
