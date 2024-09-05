@@ -225,6 +225,9 @@ Resampling geospatial image data.
 **[Uxarray](https://uxarray.readthedocs.io/)** ([Project Raijin](https://raijin.ucar.edu/))  
 Reading and recognizing unstructured grid models.
 
+**[xarray-regrid](https://xarray-regrid.readthedocs.io/)**  
+Extends xarray with regridding methods, making it possible to easily and effiently regrid between two rectilinear grids.
+
 **[xESMF](https://xesmf.readthedocs.io/)** (Jiawei Zhuang)  
 Universal regridder for geospatial data.
 
