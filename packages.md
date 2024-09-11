@@ -245,6 +245,9 @@ Atmospheric large eddy simulation infrastructure designed to simulate boundary l
 **[pyrcel](https://github.com/darothen/pyrcel)** (Daniel Rothenberg)  
 Adiabatic cloud parcel model for studying aerosol activation.
 
+**[scores](https://scores.readthedocs.io/)** (Australian Bureau of Meteorology)  
+Verification and evaluation for forecasts and models.
+
 **[wrf-python](https://wrf-python.readthedocs.io/)** ([GeoCAT](https://geocat.ucar.edu/) project)   
 A collection of diagnostic and interpolation routines for use with output from the Weather Research and Forecasting (WRF-ARW) Model.
 
