@@ -254,11 +254,14 @@ A collection of diagnostic and interpolation routines for use with output from t
 **[xgcm](https://xgcm.readthedocs.io/)**  
 General circulation model post-processing with xarray.
 
+**[xsdba](https://xsdba.readthedocs.io/)** ([Ouranos](https://ouranos.ca/))  
+Statistical downscaling and bias adjustment with xarray and dask.
+
 **[xskillscore](https://xskillscore.readthedocs.io/)**  
 Metrics for verifying model forecasts.
 
 **[xWRF](https://xwrf.readthedocs.io/)**  
-Interface for working with the Weather Research and Forecasting (WRF) model output in Xarray.
+Interface for working with the Weather Research and Forecasting (WRF) model output in xarray.
 
 ## Climate and Forecast (CF) metadata conventions
 
