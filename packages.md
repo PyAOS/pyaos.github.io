@@ -118,8 +118,14 @@ Direct data assimilation framework for wind retrievals.
 **[PyDSD](http://josephhardinee.github.io/PyDSD/)** (Joseph Hardin and Nick Guy)  
 Utilities for working with disdrometer data.
 
+**[pyet](https://pyet.readthedocs.io)** (Matevz Vremec & Raoul Collenteur)  
+Estimation of potential evapotranspiration.
+
 **[pyPI](https://github.com/dgilford/pyPI)** (Daniel Gilford)  
 Tropical cyclone potential intensity calculations.
+
+**[pyThermalComfort](https://pythermalcomfort.readthedocs.io/)** (Center for the Built Environment at UC Berkeley)  
+Toolkit for calculating thermal comfort indices, heat/cold stress metrics, and thermophysiological responses.
 
 **[Satpy](https://satpy.readthedocs.io/)** ([PyTroll community](http://pytroll.github.io/))  
 Reading, manipulating, and writing data from remote-sensing earth-observing meteorological satellite instruments.
@@ -135,9 +141,6 @@ Computations on global wind fields in spherical geometry.
 
 **[xcape](https://xcape.readthedocs.io/)**  
 Fast convective parameters for numpy, dask, and xarray.
-
-**[pyet](https://pyet.readthedocs.io)** (Matevz Vremec & Raoul Collenteur)  
-Estimation of potential evapotranspiration.
 
 ## Oceanography
 
@@ -196,14 +199,14 @@ Focuses on the time domain with custom functions for Xarray and Dask data.
 Climate simulation operations (temporal and spatial subsetting and averaging of xarray data sets).
 Related to [daops](https://daops.readthedocs.io).
 
-**[xeofs](https://xeofs.readthedocs.io)** (Niclas Rieger)  
-EOF analysis in Python with xarray.
-
 **[eofs](https://ajdawson.github.io/eofs/latest/)** (Andrew Dawson)  
 EOF analysis of spatial-temporal data.
 
 **[regionmask](https://regionmask.readthedocs.io/)** (Mathias Hauser)  
 Masking of of geographic regions.
+
+**[xeofs](https://xeofs.readthedocs.io)** (Niclas Rieger)  
+EOF analysis in Python with xarray.
 
 ## Spatial grids
 
