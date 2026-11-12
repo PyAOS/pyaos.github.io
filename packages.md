@@ -124,6 +124,9 @@ Estimation of potential evapotranspiration.
 **[pyPI](https://github.com/dgilford/pyPI)** (Daniel Gilford)  
 Tropical cyclone potential intensity calculations.
 
+**[pyTCR](https://pytcr.readthedocs.io/)** (Phong Le)  
+A physics-based model to estimate rainfall induced by tropical cyclones.
+
 **[pyThermalComfort](https://pythermalcomfort.readthedocs.io/)** (Center for the Built Environment at UC Berkeley)  
 Toolkit for calculating thermal comfort indices, heat/cold stress metrics, and thermophysiological responses.
 
